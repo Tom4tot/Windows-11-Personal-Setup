@@ -62,6 +62,7 @@
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 
 ### Settings & tweaks
+- Uninstall all unnecessary user UWP apps
 - Windows Settings
   - System → Power
   - System → Multitasking
