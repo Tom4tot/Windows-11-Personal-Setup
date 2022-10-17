@@ -69,7 +69,9 @@
   - System → Clipboard
   - Bluetooth & devices → Mouse → Additional mouse settings → pointer options → disable enhance pointer precision
   - Bluetooth & devices → Touchpad
-  - Turn on Bitlocker
+  - Turn on BitLocker
+  - Privacy & security → open Windows Security → disable Tamper Protection 
+  - Windows Security → import this [task](https://github.com/Tom4tot/Microsoft-Defender-RTP-stop/) in Task Scheduler
 - PowerShell commands
   - Disable YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
 - Group Policy
