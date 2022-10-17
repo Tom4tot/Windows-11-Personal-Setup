@@ -41,6 +41,10 @@
 - [*W10privacy*](https://www.w10privacy.de/deutsch-start/download/) - Quickly configure Windows to improve privacy and UX - use with caution
 
 #### Installed applications
+- [7-zip](https://www.7-zip.org/download.html) - best file archiver
+- [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
+- [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
+- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows
 - [Firefox](https://www.mozilla.org/fr/firefox/all/#product-desktop-release) - Main browser
   - Add-ons: 
     - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
@@ -48,16 +52,27 @@
     - [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
     - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
     - A working twitch adblocker, see [TwitchAdSolutions](https://github.com/pixeltris/TwitchAdSolutions)
-- [7-zip](https://www.7-zip.org/download.html) - best file archiver
-- [NextCloud](https://nextcloud.com/install/) - Cloud Client
-- [*Soulseek*](https://www.slsknet.org/news/node/1) - To share and download music files that I legally own
-- [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
-- [*TeamViewer*](https://www.teamviewer.com) - Chen I need to support a relative with IT stuff
-- [Sublte](https://github.com/tvdburgt/subtle) - Subtitles downloader
 - [*f.lux*](https://justgetflux.com/) - My favorite nightlight software on Windows
-- [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
-- [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
-- [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 - [*Microsoft Office*](https://www.heidoc.net/joomla/technology-science/microsoft/16-office-2021-direct-download-links) - Office suite (direct link)
+- [NextCloud](https://nextcloud.com/install/) - Cloud Client
+- [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
+- [*Soulseek*](https://www.slsknet.org/news/node/1) - To share and download music files that I legally own
+- [Sublte](https://github.com/tvdburgt/subtle) - Subtitles downloader
+- [*TeamViewer*](https://www.teamviewer.com) - Chen I need to support a relative with IT stuff
+- [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 
 ### Settings & tweaks
+- Windows Settings
+  - System → Power
+  - System → Multitasking
+  - System → Clipboard
+  - Bluetooth & devices → Mouse → Additional mouse settings → pointer options → disable enhance pointer precision
+  - Bluetooth & devices → Touchpad
+  - Turn on Bitlocker
+- PowerShell commands
+  - Disable YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
+- Group Policy
+  -  Disable widgets in GP: Computer Configuration → Administrative Templates → Windows Components\Widget
+  -  Disable Connected Modern Standby (Computer Configuration → Administrative Templates → System → Power Management → Sleep Settings → Allow network connectivity during connected-standby (on battery)
+- Local Security Policy 
+  - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
