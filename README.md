@@ -22,7 +22,7 @@
 - [*MP3TAG*](https://www.mp3tag.de/en/download.html) - One of my favorite tag editor for music
 - [MPC-HC](https://github.com/clsid2/mpc-hc) - One of my favorite video player (fork)
 - [MPV](https://sourceforge.net/projects/mpv-player-windows/files/64bit-v3/) - My favorite video player
-- [Notepadd++](https://notepad-plus-plus.org/downloads/) - My favorite text editor
+- [Notepad++](https://notepad-plus-plus.org/downloads/) - My favorite text editor
 - [qBittorrent](https://www.qbittorrent.org/download.php) - Best torrent client
 - [ShareX](https://getsharex.com/downloads/) - Best screen capture tools, many other features
 - [simplewall](https://github.com/henrypp/simplewall/) - great firewall
