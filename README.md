@@ -81,3 +81,4 @@
   - Disable Cortana / Internet search: Computer Configuration → Administrative Templates → Windows Components → Search → Cortana + don't search the web
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
+- Disable telemetry in Microsoft Office
