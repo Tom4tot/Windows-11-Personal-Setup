@@ -75,7 +75,9 @@
 - PowerShell commands
   - Disable YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
 - Group Policy
-  -  Disable widgets in GP: Computer Configuration → Administrative Templates → Windows Components\Widget
-  -  Disable Connected Modern Standby (Computer Configuration → Administrative Templates → System → Power Management → Sleep Settings → Allow network connectivity during connected-standby (on battery)
+  - Backup all files/folders from C:\Windows\System32\GroupPolicy and paste its content to your new installation
+  - Disable widgets in GP: Computer Configuration → Administrative Templates → Windows Components\Widget
+  - Disable Connected Modern Standby (Computer Configuration → Administrative Templates → System → Power Management → Sleep Settings → Allow network connectivity during connected-standby (on battery)
+  - Disable Cortana / Internet search: Computer Configuration → Administrative Templates → Windows Components → Search → Cortana + don't search the web
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
