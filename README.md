@@ -58,7 +58,7 @@
 - [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
 - [*Soulseek*](https://www.slsknet.org/news/node/1) - To share and download music files that I legally own
 - [Sublte](https://github.com/tvdburgt/subtle) - Subtitles downloader
-- [*TeamViewer*](https://www.teamviewer.com) - Chen I need to support a relative with IT stuff
+- [*TeamViewer*](https://www.teamviewer.com) - When I need to support a relative with IT stuff
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 
 ### Settings & tweaks
