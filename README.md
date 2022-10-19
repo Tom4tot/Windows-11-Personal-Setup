@@ -39,13 +39,13 @@ This covers all  the steps I personally go though when performing a clean instal
 - [simplewall](https://github.com/henrypp/simplewall/) - great firewall
 - [Spek](https://github.com/MikeWang000000/spek-X/) - Acoustic spectrum analyser (fork)
 - [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer) - My favorite PDF viewer
-- [TagScanner](https://www.xdlab.ru/en/) - Another one of my favorite tag editor for music
+- [*TagScanner*](https://www.xdlab.ru/en/) - Another one of my favorite tag editor for music
 - [WinCDEmu](https://github.com/sysprogs/WinCDEmu) - CD/DVD/BD emulator
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Easily download video/audio files from YouTube (fork)
 
 #### Portable tools
 - [BleachBit](https://www.bleachbit.org/download/windows) - Disk space cleaner, privacy manager, and computer system optimizer
-- [HWiNFO](https://www.hwinfo.com/download/) - System Information
+- [*HWiNFO*](https://www.hwinfo.com/download/) - System Information
 - [KMS](https://forums.mydigitallife.net/threads/kms_vl_all-smart-activation-script.79535/) - you need to create an account to access the thread
 - [Driver Store Explorer [RAPR]](https://github.com/lostindark/DriverStoreExplorer) - Manage drivers
 
