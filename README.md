@@ -84,9 +84,9 @@ This covers all  the steps I personally go though when performing a clean instal
 	- No third-party software = more reliable, more secure, more private.
 	- GPE includes meaningful descriptions, wheras regedit doesn't offer any. Third-party softwares' are usually not very accurate or up to date.
 
-#### How to Backup / Restore group policy entries
+#### How to Backup / Restore group policies
 - Backup: copy all files/folders from `C:\Windows\System32\GroupPolicy`
-- Restore: 
+- Restore/import: 
 	- Paste these files to your new installation in the same folder
 	- You can also directly import my config that is attached to this repository
 
