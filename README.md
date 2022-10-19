@@ -25,7 +25,7 @@ This covers all  the steps I personally go though when performing a clean instal
 - [Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2) - Tool to analyse/edit audio files (last update that doesn't include telemetry)
 - [*Everything*](https://www.voidtools.com/) - Locate files and folders by name instantly
 - [*Foobar2000*](https://www.foobar2000.org/download) - My favorite music player by far
-- [HankBrake](https://handbrake.fr/) - Best video converter
+- [HandBrake](https://handbrake.fr/) - Best video converter
 - [JPEGView](https://github.com/sylikc/jpegview) - extremely fast and lightweight image viewer (fork)
 - [KeePassXC](https://keepassxc.org/download/#windows) - Cross-Platform Password Manager
 - [LameXP](https://lamexp.sourceforge.net/page_3.php) - Multi-format audio file converter
