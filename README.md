@@ -1,5 +1,16 @@
 # Windows 11 Personal Setup
 
+### Introduction and general information
+Made for: Windows 11 22H2  
+Last update: 2022-10-20  
+
+This covers all  the steps I personally go though when performing a clean install of Windows 11. My aims are the following
+- I'm aiming for as much automation as possible
+- A clean UI/UX
+- As much privacy as possible
+- Prioritizing native software or FOSS
+
+
 ### Installation
 - Download the official iso file from [Microsoft](https://www.microsoft.com/software-download/windows11)
 - Create bootable USB with [Rufus](https://rufus.ie/en/), leave everything as default (GPT, UEFI, NTFS), and customize the *Windows User Experience*: tick everything
@@ -62,8 +73,6 @@
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 
 ### Settings & tweaks - Group Policy Editor
-Made for: Windows 11 22H2  
-Last update: 2022-10-20  
 Sources:  
 https://4sysops.com/archives/windows-10-privacy-all-group-policy-settings/  
 https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryEnhancedLockdown.htm  
