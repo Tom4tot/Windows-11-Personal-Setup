@@ -83,13 +83,15 @@ https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-Teleme
 
 - How to Backup / Restore group policy entries
 	- Backup: copy all files/folders from `C:\Windows\System32\GroupPolicy`
-	- Restore: paste these files to your new installation in the same folder
+	- Restore: 
+		- Paste these files to your new installation in the same folder
+		- You can also directly import my config that is attached to this repository
 
 - Privacy  
 	- `Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options > Handwriting personalization` → Turn off automatic learning (E)  
 	- `Computer Configuration > Administrative Templates > System > Internet Communication Management > Internet Communication settings` → Turn off Windows Customer Experience Improvement Program (E) + Turn off Windows Error Reporting (E) + Turn off the Windows Messenger Customer Experience Improvement Program (E)  
-	- `Computer Configuration > Administrative Templates > System > OS Policies` → Activity feed
-	- `Computer Configuration > Administrative Templates > System > User Profiles` → advertising ID
+	- `Computer Configuration > Administrative Templates > System > OS Policies` → Allow Clipboard History (E) + Enables Activity Feed (D) + Allow publising of User Activities (D) + Allow upload of User Activities (D)
+	- `Computer Configuration > Administrative Templates > System > User Profiles` → Turn off the advertising ID (E)
 	- `Computer Configuration > Administrative Templates > Windows Components > Application Compatibility` → Turn off Application Telemetry (D) + Turn off Inventory Collector (D) + Turn off Steps Recorder (E)
 	- `Computer Configuration > Administrative Templates > Windows Components > Chat` → Configures the Chat icon on the taskbar (E+C)
 	- `Computer Configuration > Administrative Templates > Windows Components > Cloud Content​` → Do not show Windows tips (E) + Turn off Microsoft consumer experiences (E)
