@@ -82,5 +82,4 @@
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
 - Regedit
-  - Disable web search: HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer → 32-bit DWORD → DisableSearchBoxSuggestions = 1 (GPEDIT User Configuration > Administrative Templates > Windows Components > File Explorer > Turn off display of recent search entries in the File Explorer search box doesn't seem to be available anymore)
 - Disable telemetry in Microsoft Office
