@@ -61,7 +61,57 @@
 - [*TeamViewer*](https://www.teamviewer.com) - When I need to support a relative with IT stuff
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 
-### Settings & tweaks
+### Settings & tweaks - Group Policy Editor
+Made for: Windows 11 22H2  
+Last update: 2022-10-20  
+Sources:  
+https://4sysops.com/archives/windows-10-privacy-all-group-policy-settings/  
+https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryEnhancedLockdown.htm  
+https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryBasicLockdown.htm  
+(D) = disabled  
+(E) = enabled  
+(E+C) = enabled, configuration is necessary  
+
+- How to Backup / Restore group policy entries
+	- Backup: backup all files/folders from C:\Windows\System32\GroupPolicy
+	- Restore: paste its content to your new installation
+
+- Privacy 
+	- Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options > Handwriting personalization => Turn off automatic learning (E)
+	- Computer Configuration > Administrative Templates > System > Internet Communication Management > Internet Communication settings => Turn off Windows Customer Experience Improvement Program (E) + Turn off Windows Error Reporting (E) + Turn off the Windows Messenger Customer Experience Improvement Program (E)
+	- Computer Configuration > Administrative Templates > System > OS Policies => Activity feed
+	- Computer Configuration > Administrative Templates > System > User Profiles => advertising ID
+	- Computer Configuration > Administrative Templates > Windows Components > Application Compatibility => Turn off Application Telemetry (D) + Turn off Inventory Collector (D) + Turn off Steps Recorder (E)
+	- Computer Configuration > Administrative Templates > Windows Components > Chat => Configures the Chat icon on the taskbar (E+C)
+	- Computer Configuration > Administrative Templates > Windows Components > Cloud Content​ => Do not show Windows tips (E) + Turn off Microsoft consumer experiences (E)
+	- Computer Configuration > Administrative Templates > Windows Components > Data Collection and Preview Builds => Allow Desktop Analytics Processing (D) + Allow device name to be sent in Windows diagnostic data (D) + Allow Diagnostic data (E+C) + Configure Authenticated Proxy usage for the Connected User Experience and Telemetry service (E+C) + Configure collection of browsing data for Desktop Analytics (E+C) + Disable OneSettings Downloads (E) + Do not show feedback notifications (E) + Limit Diagnostic Log Collection (E) + Limit Dump Collection (E) + Limit optional diagnostic data for Desktop Analytics (D)
+	- Computer Configuration > Administrative Templates > Windows Components > File Explorer => Configure Windows Defender SmartScreen (D)
+	- Computer Configuration > Administrative Templates > Windows Components > Find My Device => Turn On/Off Find My Device (D)
+	- Computer Configuration > Administrative Templates > Windows Components > Text Input​ => Improve inking and typing recognition
+	- Computer Configuration > Administrative Templates > Windows Components > Location and Sensors => Turn off location (E) + Turn off location scripting (E)
+	- Computer Configuration > Administrative Templates > Windows Components > Maps => Turn off Automatic Download and Update of Map Data (E) + Turn off unsolicited network traffic on the Offline Maps settings page (E)
+	- Computer Configuration > Administrative Templates > Windows Components > Microsoft edge ============= TO DO
+	- Computer Configuration > Administrative Templates > Windows Components > OneDrive => Prevent the usage of OneDrive for file storage (E) + Save documents to OneDrive by default (D)
+	- Computer Configuration > Administrative Templates > Windows Components > Sppech => Allow automatic Update of Speech Data (D)
+	- Computer Configuration > Administrative Templates > Windows Components > Sync your settings => Do not sync (E)
+	- Computer Configuration > Administrative Templates > Windows Components > Text Input => Improve inking and typing recognition (D)
+	- Computer Configuration > Administrative Templates > Windows Components > Widgets => Allow widgets (D)
+	- Computer Configuration > Administrative Templates > Windows Components > Windows Error Reporting => Disable Windows Error Reporting (E)
+	- Computer Configuration > Administrative Templates > Windows Components > 
+	- Computer Configuration > Administrative Templates > Windows Components > 
+	- User Configuration > Administrative Templates > Windows Components > Cloud Content​ => Turn Off Spotlight collection on Desktop (E) + Do not use diagnostic data for tailored experiences (E) + Do not suggest third-party content in Windows spotlight (E) + Turn off all Windows spotlight features (E) + Turn off Windows Spotlight on Action Center (E) + Turn off Windows Spotlight on Settings (E) + Turn off the Windows Welcome Experience (E)
+	- User Configuration > Administrative Templates > Windows Components > Edge UI => Disable help tips (E) + Turn off tracking of app usage (E)
+	- User Configuration > Administrative Templates > Windows Components > File Explorer => Turn off display of recent search entries in the File Explorer search box (E)
+	- User Configuration > Administrative Templates > Windows Components > Search => Turn off storage and display of search history (E)
+
+- UI/UX tweaks
+	- Disable widgets in GP: Computer Configuration> > Administrative Templates > Windows Components > Widget
+	- Disable Connected Modern Standby: Computer Configuration > Administrative Templates > System > Power Management > Sleep Settings => Allow network connectivity during connected-standby (on battery) (D)
+	- Disable Cortana / Internet search: Computer Configuration > Administrative Templates > Windows Components > Search => Allow Cloud Search (D) + Allow Cortana (D) + Do not allow web search (E) + Don't search the web or display web results in Search (E) + Set what information is shared in Search (E+C)
+	- Disable Internet search: User Configuration > Administrative Templates > Windows Components > File Explorer > Turn off display of recent search entries in the File Explorer search box (E)
+	- Disable real-time protection (Microsoft Defender): Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus > Real-time protection => Turn off real-time protection (E)
+
+### Settings & tweaks - Others
 - Uninstall all unnecessary user UWP apps
 - Windows Settings
   - System → Power
@@ -74,12 +124,6 @@
   - Windows Security → import this [task](https://github.com/Tom4tot/Microsoft-Defender-RTP-stop/) in Task Scheduler
 - PowerShell commands
   - Disable YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
-- Group Policy
-  - Backup all files/folders from C:\Windows\System32\GroupPolicy and paste its content to your new installation
-  - Disable widgets in GP: Computer Configuration → Administrative Templates → Windows Components\Widget
-  - Disable Connected Modern Standby (Computer Configuration → Administrative Templates → System → Power Management → Sleep Settings → Allow network connectivity during connected-standby (on battery)
-  - Disable Cortana / Internet search: Computer Configuration → Administrative Templates → Windows Components → Search → Cortana + don't search the web
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
-- Regedit
 - Disable telemetry in Microsoft Office
