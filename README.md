@@ -78,6 +78,11 @@ This covers all  the steps I personally go though when performing a clean instal
 	- (E) = enabled  
 	- (E+C) = enabled, configuration is necessary
 - Benefits of using GPE instead of third-party programs or regedit
+	- Easier to setup after a clean install (no need to tick all boxes one by one).
+	- All GP edits are up to date, so there's no risk to mess with regedit by adding unnecessary keys.
+	- Changes are easier to track than on regedit.
+	- No third-party software = more reliable, more secure, more private.
+	- GPE includes meaningful descriptions, wheras regedit doesn't offer any. Third-party softwares' are usually not very accurate or up to date.
 
 #### How to Backup / Restore group policy entries
 - Backup: copy all files/folders from `C:\Windows\System32\GroupPolicy`
