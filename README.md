@@ -46,7 +46,6 @@ This covers all  the steps I personally go though when performing a clean instal
 #### Portable tools
 - [BleachBit](https://www.bleachbit.org/download/windows) - Disk space cleaner, privacy manager, and computer system optimizer
 - [*HWiNFO*](https://www.hwinfo.com/download/) - System Information
-- [KMS](https://forums.mydigitallife.net/threads/kms_vl_all-smart-activation-script.79535/) - you need to create an account to access the thread
 - [Driver Store Explorer [RAPR]](https://github.com/lostindark/DriverStoreExplorer) - Manage drivers
 
 #### Installed applications
