@@ -73,10 +73,7 @@ This covers all  the steps I personally go though when performing a clean instal
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 
 ### Settings & tweaks - Group Policy Editor
-Sources:  
-https://4sysops.com/archives/windows-10-privacy-all-group-policy-settings/  
-https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryEnhancedLockdown.htm  
-https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryBasicLockdown.htm  
+Sources: [1](https://4sysops.com/archives/windows-10-privacy-all-group-policy-settings/), [2](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryEnhancedLockdown.htm), [3](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryBasicLockdown.htm)  
 (D) = disabled  
 (E) = enabled  
 (E+C) = enabled, configuration is necessary  
