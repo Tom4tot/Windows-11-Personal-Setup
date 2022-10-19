@@ -8,7 +8,7 @@ This covers all  the steps I personally go though when performing a clean instal
 - As much automation as possible (portable programs, quick import of settings)
 - A clean UI/UX (I disable/uninstall most of the bloat that comes with Windows)
 - As much privacy as possible (see my Group Policy edits)
-- Prioritizing native software or FOSS
+- Prioritizing native software (to break as little things as possible) or FOSS
 
 
 ### Installation
