@@ -129,7 +129,7 @@ https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-Teleme
   - Privacy & security → open Windows Security → disable Tamper Protection 
   - Windows Security → import this [task](https://github.com/Tom4tot/Microsoft-Defender-RTP-stop/) in Task Scheduler
 - PowerShell commands
-  - Disable YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
+  - Remove YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
 - Disable telemetry in Microsoft Office
