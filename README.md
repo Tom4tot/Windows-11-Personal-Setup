@@ -1,4 +1,4 @@
-# Windows 11 Personal Setup
+# Windows 11 Personal Setup - privacy tweaks with GPEDIT
 
 ### Introduction and general information
 Made for: Windows 11 22H2  
