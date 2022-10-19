@@ -5,9 +5,9 @@ Made for: Windows 11 22H2
 Last update: 2022-10-20  
 
 This covers all  the steps I personally go though when performing a clean install of Windows 11. My aims are the following
-- I'm aiming for as much automation as possible
-- A clean UI/UX
-- As much privacy as possible
+- I'm aiming for as much automation as possible (portable programs, quick import of settings)
+- A clean UI/UX (I disable/uninstall most of the bloat that comes with Windows)
+- As much privacy as possible (see my Group Policy edits)
 - Prioritizing native software or FOSS
 
 
