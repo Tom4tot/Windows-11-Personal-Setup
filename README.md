@@ -164,7 +164,11 @@ This covers all  the steps I personally go though when performing a clean instal
 		- `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus` → Configure detection for potentially unwanted applications (D)
 	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Enhanced Phising Protection` → Service Enabled (D)
 	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Explorer` → Configure Windows Defender SmartScreen(D)
-
+- Microsoft Edge configuration: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Edge`
+	- Allow extended telemetry for the Books tab (D)
+	- Allow web content on New Tab page (D)
+	- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
+	- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
 ### Settings & tweaks - Others
 - Uninstall all unnecessary user UWP apps
 - Windows Settings
