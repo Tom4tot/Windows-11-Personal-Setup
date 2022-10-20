@@ -88,7 +88,7 @@ This covers all  the steps I personally go though when performing a clean instal
 - Restore/import: 
 	- Paste these files to your new installation in the same folder
 	- You can also directly import [my config](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/GroupPolicy.7z) that is attached to this repository
-	- If you want to update policies without restarting, type this in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
+	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
 
 #### Privacy edits  
 - `Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options > Handwriting personalization` → Turn off automatic learning (E)  
