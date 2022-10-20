@@ -184,4 +184,7 @@ This covers all  the steps I personally go though when performing a clean instal
   - Remove YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
+- services.msc: services to disable
+	- Connected User Experiences and Telemetry
+	- Microsoft Account Sign-In Assistant
 - Disable telemetry in Microsoft Office
