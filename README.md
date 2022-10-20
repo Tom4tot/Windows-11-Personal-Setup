@@ -102,8 +102,8 @@ This covers all  the steps I personally go though when performing a clean instal
 	- Allow upload of User Activities (D)
 - `Computer Configuration > Administrative Templates > System > User Profiles` → Turn off the advertising ID (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Application Compatibility`
-	- Turn off Application Telemetry (D) 
-	- Turn off Inventory Collector (D) 
+	- Turn off Application Telemetry (E) 
+	- Turn off Inventory Collector (E) 
 	- Turn off Steps Recorder (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Cloud Content​`
 	- Do not show Windows tips (E) 
