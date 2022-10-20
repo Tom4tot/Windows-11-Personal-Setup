@@ -96,7 +96,7 @@ This covers all  the steps I personally go though when performing a clean instal
 	- Turn off Windows Error Reporting (E) 
 	- Turn off the Windows Messenger Customer Experience Improvement Program (E)  
 - `Computer Configuration > Administrative Templates > System > OS Policies`
-	- Allow Clipboard History (E) 
+	- Allow Clipboard History (D) 
 	- Enables Activity Feed (D) 
 	- Allow publising of User Activities (D) 
 	- Allow upload of User Activities (D)
