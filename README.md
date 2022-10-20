@@ -120,7 +120,7 @@ This covers all  the steps I personally go though when performing a clean instal
 	- Limit optional diagnostic data for Desktop Analytics (D)
 - `Computer Configuration > Administrative Templates > Windows Components > File Explorer` → Configure Windows Defender SmartScreen (D)
 - `Computer Configuration > Administrative Templates > Windows Components > Find My Device` → Turn On/Off Find My Device (D)
-- `Computer Configuration > Administrative Templates > Windows Components > Text Input​` → Improve inking and typing recognition
+- `Computer Configuration > Administrative Templates > Windows Components > Text Input` → Improve inking and typing recognition (D)
 - `Computer Configuration > Administrative Templates > Windows Components > Location and Sensors`
 	- Turn off location (E) 
 	- Turn off location scripting (E)
