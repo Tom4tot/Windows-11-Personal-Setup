@@ -4,7 +4,7 @@
 Made for: Windows 11 22H2  
 Last update: 2022-10-20  
 
-This covers all  the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
+This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
 - As much automation as possible (portable programs, quick import of settings)
 - A clean UI/UX (I disable/uninstall most of the bloat that comes with Windows)
 - As much privacy as possible (see my Group Policy edits)
@@ -91,57 +91,56 @@ This covers all  the steps I personally go though when performing a clean instal
 	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
 
 #### Privacy edits  
-- `Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options > Handwriting personalization` → Turn off automatic learning (E)  
+- `Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options > Handwriting personalization` → Turn off automatic learning (E)
 - `Computer Configuration > Administrative Templates > System > Internet Communication Management > Internet Communication settings`
-	- Turn off Windows Customer Experience Improvement Program (E) 
-	- Turn off Windows Error Reporting (E) 
-	- Turn off the Windows Messenger Customer Experience Improvement Program (E)  
+	- Turn off Windows Customer Experience Improvement Program (E)
+	- Turn off Windows Error Reporting (E)
+	- Turn off the Windows Messenger Customer Experience Improvement Program (E)
 - `Computer Configuration > Administrative Templates > System > OS Policies`
-	- Allow Clipboard History (D) 
-	- Enables Activity Feed (D) 
-	- Allow publising of User Activities (D) 
+	- Allow Clipboard History (D)
+	- Enables Activity Feed (D)
+	- Allow publising of User Activities (D)
 	- Allow upload of User Activities (D)
 - `Computer Configuration > Administrative Templates > System > User Profiles` → Turn off the advertising ID (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Application Compatibility`
-	- Turn off Application Telemetry (E) 
-	- Turn off Inventory Collector (E) 
+	- Turn off Application Telemetry (E)
+	- Turn off Inventory Collector (E)
 	- Turn off Steps Recorder (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Cloud Content​`
-	- Do not show Windows tips (E) 
+	- Do not show Windows tips (E)
 	- Turn off Microsoft consumer experiences (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Data Collection and Preview Builds`
-	- Allow Desktop Analytics Processing (D) 
-	- Allow device name to be sent in Windows diagnostic data (D) 
-	- Allow Diagnostic data (E+C) + Configure Authenticated Proxy usage for the Connected User Experience and Telemetry service (E+C) 
-	- Disable OneSettings Downloads (E) 
+	- Allow Desktop Analytics Processing (D)
+	- Allow device name to be sent in Windows diagnostic data (D)
+	- Allow Diagnostic data (E+C) + Configure Authenticated Proxy usage for the Connected User Experience and Telemetry service (E+C)
+	- Disable OneSettings Downloads (E)
 	- Enable OneSettings Auditing (D)
-	- Limit Diagnostic Log Collection (E) 
-	- Limit Dump Collection (E) 
+	- Limit Diagnostic Log Collection (E)
+	- Limit Dump Collection (E)
 	- Limit optional diagnostic data for Desktop Analytics (D)
-	- Do not show feedback notifications (E) 
-	- Configure collection of browsing data for Desktop Analytics (E+C) 
+	- Do not show feedback notifications (E)
+	- Configure collection of browsing data for Desktop Analytics (E+C)
 - `Computer Configuration > Administrative Templates > Windows Components > File Explorer` → Configure Windows Defender SmartScreen (D)
 - `Computer Configuration > Administrative Templates > Windows Components > Find My Device` → Turn On/Off Find My Device (D)
 - `Computer Configuration > Administrative Templates > Windows Components > Location and Sensors`
-	- Turn off location (E) 
+	- Turn off location (E)
 	- Turn off location scripting (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Maps`
 	- Turn off unsolicited network traffic on the Offline Maps settings page (E)
-	- Turn off Automatic Download and Update of Map Data (E) 
+	- Turn off Automatic Download and Update of Map Data (E)
 - `Computer Configuration > Administrative Templates > Windows Components > OneDrive`
-	- Prevent the usage of OneDrive for file storage (E) 
+	- Prevent the usage of OneDrive for file storage (E)
 	- Save documents to OneDrive by default (D)
-- `Computer Configuration > Administrative Templates > Windows Components > Search` 
+- `Computer Configuration > Administrative Templates > Windows Components > Search`
 	- Allow Cloud Search (D)
 	- Allow Cortana (D)
-	- Do not allow web search (E) 
-	- Don't search the web or display web results in Search (E) 
+	- Do not allow web search (E)
+	- Don't search the web or display web results in Search (E)
 	- Set what information is shared in Search (E+C)
 - `Computer Configuration > Administrative Templates > Windows Components > Speach` → Allow automatic Update of Speech Data (D)
 - `Computer Configuration > Administrative Templates > Windows Components > Sync` your settings → Do not sync (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Text Input` → Improve inking and typing recognition (D)
 - `Computer Configuration > Administrative Templates > Windows Components > Windows Error Reporting` → Disable Windows Error Reporting (E)
-
 - `User Configuration > Administrative Templates > Start Menu and Taskbar`
 	- Remove the People Bar from the taskbar (E)
 	- Turn off feature advertisement balloon notifications (E)
@@ -151,15 +150,15 @@ This covers all  the steps I personally go though when performing a clean instal
 	- Turn off Windows Online (E)
 	- Turn off the Windows Messenger Customer Experience Improvement Program (E)
 - `User Configuration > Administrative Templates > Windows Components > Cloud Content`​
-	- Turn Off Spotlight collection on Desktop (E) 
-	- Do not use diagnostic data for tailored experiences (E) 
-	- Do not suggest third-party content in Windows spotlight (E) 
-	- Turn off all Windows spotlight features (E) 
-	- Turn off Windows Spotlight on Action Center (E) 
-	- Turn off Windows Spotlight on Settings (E) 
+	- Turn Off Spotlight collection on Desktop (E)
+	- Do not use diagnostic data for tailored experiences (E)
+	- Do not suggest third-party content in Windows spotlight (E)
+	- Turn off all Windows spotlight features (E)
+	- Turn off Windows Spotlight on Action Center (E)
+	- Turn off Windows Spotlight on Settings (E)
 	- Turn off the Windows Welcome Experience (E)
 - `User Configuration > Administrative Templates > Windows Components > Edge UI`
-	- Disable help tips (E) 
+	- Disable help tips (E)
 	- Turn off tracking of app usage (E)
 - `User Configuration > Administrative Templates > Windows Components > File Explorer` → Turn off display of recent search entries in the File Explorer search box (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Text Input` → Improve inking and typing recognition (D)
@@ -174,7 +173,7 @@ This covers all  the steps I personally go though when performing a clean instal
 		- `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus` → Configure detection for potentially unwanted applications (D)
 	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Enhanced Phising Protection` → Service Enabled (D)
 	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Explorer` → Configure Windows Defender SmartScreen(D)
-- Microsoft Edge: 
+- Microsoft Edge:
 	- Basic tweaks: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Edge`
 		- Allow extended telemetry for the Books tab (D)
 		- Allow web content on New Tab page (D)
@@ -208,13 +207,13 @@ This covers all  the steps I personally go though when performing a clean instal
 			- Show Microsoft Rewards experiences (D)
 			- Disable syncrhonization of data using Microsoft sync services (E)
 			- Enable travel assistance (D)
-			- Visual search enabled (D)			
+			- Visual search enabled (D)
 		- `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override) > Default search provider` → (E+C) (Adress bar)
 		- `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override) > Startup, home page and new tabe page`
 			- Set the new tab page as the home page (E)
 			- Action to take on startup (E+C)
 			- Show Home button on toolbar (E)
-- Microsoft Office: 
+- Microsoft Office:
 	- Policy import:
 		- Download [templates](https://www.microsoft.com/en-us/download/details.aspx)
 		- Execute the .exe and import the policies you want, e.g.
@@ -222,11 +221,10 @@ This covers all  the steps I personally go though when performing a clean instal
 		- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
 	- Policies
 		- `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Global Options` → Default Office theme (E+C)
-		- `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Updates` → Don't install Microsoft Teams with new installations or updates of Office (E)
-		
+		- `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Updates` → Don't install Microsoft Teams with new installations or updates of Office (E)		
 		- `User Configuration > Administrative Templates > Microsoft Office 2016 > AutoSave`
 		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Improved Error Reporting`
-		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Miscellaneous` 
+		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Miscellaneous`
 			- Show LinkedIn Features in Office applications (D)
 			- Show OneDrive Sign In (D)
 			- Show Screen Tips (E+C)
@@ -236,11 +234,11 @@ This covers all  the steps I personally go though when performing a clean instal
 			- Enable Customer Experience Improvement Program (D)
 			- Allow users to include log files and content samples when they submit feedback to Microsoft (D)
 			- Allow the use of connected experiences in Office that analyze content (D)
-			- Allow the use of connected experiences in Office that download online content
-			- Allow the use of additional optional connected experiences in Office
-			- Allow users to include screenshots and attachments when they submit feedback to Microsoft
-			- Allow users to submit feedback to Microsoft
-			- Allow users to receive and respond to in-product surveys from Microsoft
+			- Allow the use of connected experiences in Office that download online content (D)
+			- Allow the use of additional optional connected experiences in Office (D)
+			- Allow users to include screenshots and attachments when they submit feedback to Microsoft (D)
+			- Allow users to submit feedback to Microsoft (D)
+			- Allow users to receive and respond to in-product surveys from Microsoft (D)
 			- Send personal information (D)
 			- Automatically receive small updates to improve reliability (D)
 			Disable Opt-in Wizard on first run (D)
