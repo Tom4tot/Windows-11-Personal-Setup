@@ -171,7 +171,7 @@ This covers all  the steps I personally go though when performing a clean instal
 		- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
 		- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
 	- Advanced tweaks: ([official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge))
-		- Download [policy](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ)
+		- Download [policy](https://www.microsoft.com/en-us/edge/business/download)
 			- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
 			- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
 		- `Computer Configuration > Administrative Templates > Microsoft Edge > SmartScreen settings`
