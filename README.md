@@ -164,11 +164,44 @@ This covers all  the steps I personally go though when performing a clean instal
 		- `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus` → Configure detection for potentially unwanted applications (D)
 	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Enhanced Phising Protection` → Service Enabled (D)
 	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Explorer` → Configure Windows Defender SmartScreen(D)
-- Microsoft Edge configuration: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Edge`
-	- Allow extended telemetry for the Books tab (D)
-	- Allow web content on New Tab page (D)
-	- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
-	- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
+- Microsoft Edge configuration: 
+	- Basic tweaks: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Edge`
+		- Allow extended telemetry for the Books tab (D)
+		- Allow web content on New Tab page (D)
+		- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
+		- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
+	- Advanced tweaks: ([official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge)
+		- Download policy: https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ
+			- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
+			- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
+		- `Computer Configuration > Administrative Templates > Microsoft Edge > SmartScreen settings`
+			- Configure Microsoft Defender SmartScreen (D)
+			- Configure Microsoft Defender Smartscreen to block potentially unwanted apps (D)
+		- `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override)`
+			- Enable AUtoFill for adresses (D)
+			- Enable AutoFill for adresses (D)
+			- Configure Automatic HTTPS (E+C)
+			- Continue running background apps after Microsoft Edge closes (D)
+			- Allow download restrictions (E+C)
+			- Shopping in Microsoft Edge Enabled (D)
+			- Enable favorites bar (D)
+			- Show the Reload in Internet Explorer mode button in the toolbar (D)
+			- Enable Widnows to search local Microsoft Edge browsing data (D)
+			- Allow suggestions from local providers (E)
+			- Allow single sign-on for Microsoft personal sites using this profile (D)
+			- Manage Search Engines (E+C) (`[{"allow_search_engine_discovery":true},{"is_default":true,"search_url":"https://www.google.com/search?q={searchTerms}","name":"Google","keyword":"google.com"}]`)
+			- Enable Microsoft Edge mini menu (D)
+			- Enable resolution of navigation errors using a web service (D)
+			- Enable search suggestions (D)
+			- Show Microsoft Rewards experiences (D)
+			- Disable syncrhonization of data using Microsoft sync services (E)
+			- Enable travel assistance (D)
+			- Visual search enabled (D)			
+		- `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override) > Default search provider` → (E+C) (Adress bar)
+		- `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override) > Startup, home page and new tabe page`
+			- Set the new tab page as the home page (E)
+			- Action to take on startup (E+C)
+			- Show Home button on toolbar (E)
 ### Settings & tweaks - Others
 - Uninstall all unnecessary user UWP apps
 - Windows Settings
