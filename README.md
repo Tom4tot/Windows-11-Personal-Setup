@@ -113,21 +113,21 @@ This covers all  the steps I personally go though when performing a clean instal
 	- Allow Desktop Analytics Processing (D) 
 	- Allow device name to be sent in Windows diagnostic data (D) 
 	- Allow Diagnostic data (E+C) + Configure Authenticated Proxy usage for the Connected User Experience and Telemetry service (E+C) 
-	- Configure collection of browsing data for Desktop Analytics (E+C) 
 	- Disable OneSettings Downloads (E) 
-	- Do not show feedback notifications (E) 
+	- Enable OneSettings Auditing (D)
 	- Limit Diagnostic Log Collection (E) 
 	- Limit Dump Collection (E) 
 	- Limit optional diagnostic data for Desktop Analytics (D)
+	- Do not show feedback notifications (E) 
+	- Configure collection of browsing data for Desktop Analytics (E+C) 
 - `Computer Configuration > Administrative Templates > Windows Components > File Explorer` → Configure Windows Defender SmartScreen (D)
 - `Computer Configuration > Administrative Templates > Windows Components > Find My Device` → Turn On/Off Find My Device (D)
-- `Computer Configuration > Administrative Templates > Windows Components > Text Input` → Improve inking and typing recognition (D)
 - `Computer Configuration > Administrative Templates > Windows Components > Location and Sensors`
 	- Turn off location (E) 
 	- Turn off location scripting (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Maps`
-	- Turn off Automatic Download and Update of Map Data (E) 
 	- Turn off unsolicited network traffic on the Offline Maps settings page (E)
+	- Turn off Automatic Download and Update of Map Data (E) 
 - `Computer Configuration > Administrative Templates > Windows Components > OneDrive`
 	- Prevent the usage of OneDrive for file storage (E) 
 	- Save documents to OneDrive by default (D)
@@ -141,6 +141,15 @@ This covers all  the steps I personally go though when performing a clean instal
 - `Computer Configuration > Administrative Templates > Windows Components > Sync` your settings → Do not sync (E)
 - `Computer Configuration > Administrative Templates > Windows Components > Text Input` → Improve inking and typing recognition (D)
 - `Computer Configuration > Administrative Templates > Windows Components > Windows Error Reporting` → Disable Windows Error Reporting (E)
+
+- `User Configuration > Administrative Templates > Start Menu and Taskbar`
+	- Remove the People Bar from the taskbar (E)
+	- Turn off feature advertisement balloon notifications (E)
+- `User Configuration > Administrative Templates > System > lnternet Communication Management > lnternet Communication settings`
+	- Turn off Help Ratings (E)
+	- Turn off Help Experience Improvement Program (E)
+	- Turn off Windows Online (E)
+	- Turn off the Windows Messenger Customer Experience Improvement Program (E)
 - `User Configuration > Administrative Templates > Windows Components > Cloud Content`​
 	- Turn Off Spotlight collection on Desktop (E) 
 	- Do not use diagnostic data for tailored experiences (E) 
@@ -153,6 +162,7 @@ This covers all  the steps I personally go though when performing a clean instal
 	- Disable help tips (E) 
 	- Turn off tracking of app usage (E)
 - `User Configuration > Administrative Templates > Windows Components > File Explorer` → Turn off display of recent search entries in the File Explorer search box (E)
+- `Computer Configuration > Administrative Templates > Windows Components > Text Input` → Improve inking and typing recognition (D)
 - `User Configuration > Administrative Templates > Windows Components > Search` → Turn off storage and display of search history (E)
 
 #### UI/UX edits
@@ -164,14 +174,16 @@ This covers all  the steps I personally go though when performing a clean instal
 		- `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus` → Configure detection for potentially unwanted applications (D)
 	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Enhanced Phising Protection` → Service Enabled (D)
 	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Explorer` → Configure Windows Defender SmartScreen(D)
-- Microsoft Edge configuration: 
+- Microsoft Edge: 
 	- Basic tweaks: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Edge`
 		- Allow extended telemetry for the Books tab (D)
 		- Allow web content on New Tab page (D)
 		- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
 		- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
 	- Advanced tweaks: ([official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge))
-		- Download [policy](https://www.microsoft.com/en-us/edge/business/download)
+		- Policy import:
+			- Download [templates](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ)
+			- Extract the .cab
 			- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
 			- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
 		- `Computer Configuration > Administrative Templates > Microsoft Edge > SmartScreen settings`
@@ -202,6 +214,52 @@ This covers all  the steps I personally go though when performing a clean instal
 			- Set the new tab page as the home page (E)
 			- Action to take on startup (E+C)
 			- Show Home button on toolbar (E)
+- Microsoft Office: 
+	- Policy import:
+		- Download [templates](https://www.microsoft.com/en-us/download/details.aspx)
+		- Execute the .exe and import the policies you want, e.g.
+		- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
+		- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
+	- Policies
+		- `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Global Options` → Default Office theme (E+C)
+		- `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Updates` → Don't install Microsoft Teams with new installations or updates of Office (E)
+		
+		- `User Configuration > Administrative Templates > Microsoft Office 2016 > AutoSave`
+		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Improved Error Reporting`
+		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Miscellaneous` 
+			- Show LinkedIn Features in Office applications (D)
+			- Show OneDrive Sign In (D)
+			- Show Screen Tips (E+C)
+		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Privacy > Trust Center`
+			- Allow the use of connected experiences in Office (D)
+			- Allow Microsoft to follow up on feedback submitted by users (D)
+			- Enable Customer Experience Improvement Program (D)
+			- Allow users to include log files and content samples when they submit feedback to Microsoft (D)
+			- Allow the use of connected experiences in Office that analyze content (D)
+			- Allow the use of connected experiences in Office that download online content
+			- Allow the use of additional optional connected experiences in Office
+			- Allow users to include screenshots and attachments when they submit feedback to Microsoft
+			- Allow users to submit feedback to Microsoft
+			- Allow users to receive and respond to in-product surveys from Microsoft
+			- Send personal information (D)
+			- Automatically receive small updates to improve reliability (D)
+			Disable Opt-in Wizard on first run (D)
+			Configure the level of client software diagnostic data sent by Office to Microsoft (E+C)
+		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Telemetry Dashboard`
+			- Turn on telemetry data collection (D)
+			- Turn on data uploading for Office Telemetry Agent (D)
+			- Turn on privacy settings in Office Telemetry Agent (E)
+			- Office applications to exclude from Office Telemetry Agent reporting (E+C)
+			- Office solutions to exclude from Office Telemetry Agent reporting (E+C)
+		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Tools I Options I General I Web Options...` → Display Developer tab in the Ribbon (E)
+		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Tools | Options | Spelling` → Allow accented uppercase in French (E)
+		- `User Configuration > Administrative Templates > Microsoft Office 2016 > Tools | Options | Spelling \Proofing Data Collection` → Improve Proofing Tools (D)
+		- `User Configuration > Administrative Templates > Microsoft Word 2016 > Advanced > File Locations` → (E+C)
+		- `User Configuration > Administrative Templates > Microsoft Word 2016 > Customize Ribbon` → Display Developer tab in the Ribbon (E)
+		- `User Configuration > Administrative Templates > Microsoft Word 2016 > Proofing > AutoCorrect`
+			- Correct TWO INitial CApitals (E)
+			- Correct accidental usage of CAPS LOCK key (E)
+
 ### Settings & tweaks - Others
 - Uninstall all unnecessary user UWP apps
 - Windows Settings
