@@ -1,4 +1,4 @@
-# Microsoft Edge advanced group policy config.md
+# Microsoft Edge advanced group policy config
 
 ### How to get/import the custom group policy configuration for Microsft Edge:
 - [Official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge))
