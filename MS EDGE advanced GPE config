@@ -1,0 +1,13 @@
+# MS EDGE advanced GP config
+([official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge))
+			- Policy import:
+				- Download [templates](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ)
+				- Extract the .cab
+				- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
+			- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
+		- `Computer Configuration > Administrative Templates > Microsoft Edge`
+			- 
+		- `Computer Configuration > Administrative Templates > Microsoft Edge > SmartScreen settings`
+			- Configure Microsoft Defender SmartScreen (D)
+			- Configure Microsoft Defender Smartscreen to block potentially unwanted apps (D)
+		- `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override)` Manage Search Engines (E+C) → (`[{"allow_search_engine_discovery":true},{"is_default":true,"search_url":"https://www.google.com/search?q={searchTerms}","name":"Google","keyword":"google.com"}]`)
