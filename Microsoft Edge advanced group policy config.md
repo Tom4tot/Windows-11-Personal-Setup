@@ -52,15 +52,22 @@
 	- Enable the Edge bar (D)
 	- Allow the Edge bar at Windows startup (D)
 - `Computer Configuration > Administrative Templates > Microsoft Edge > Cast`
+	- Enable Google Cast (D)
+	- Show the cast icon in the toolbar (D) 
 - `Computer Configuration > Administrative Templates > Microsoft Edge > Default search provider` → Configure the new tab page search box experience (E+C)
-- `Computer Configuration > Administrative Templates > Microsoft Edge > Kiosk Mode settings`
+- `Computer Configuration > Administrative Templates > Microsoft Edge > Kiosk Mode settings` → Configure address bar editing for kiosk mode public browsing experience (D)
 - `Computer Configuration > Administrative Templates > Microsoft Edge > Performance` → Enable startup boost (D)
-
-
-
-
 - `Computer Configuration > Administrative Templates > Microsoft Edge > SmartScreen settings`
 	- Configure Microsoft Defender SmartScreen (D)
 	- Configure Microsoft Defender Smartscreen to block potentially unwanted apps (D)
+- `Computer Configuration > Administrative Templates > Microsoft Edge > Startup, home page and new tab page`
+	- Configure the background types allowed for the new tab page layout (E+C)
+	- Allow Microsoft News content on the new tab page (D)
+	- Hide the default top sites from the new tab page (E)
+	- Enable preload of the new tab page for faster rendering(D)
+	- Allow quick links on the new tab page (D)
+	- Action to take on startup (E+C)
+	- Show Home button on toolbar	(E)
+- `Computer Configuration > Administrative Templates > Microsoft Edge > TyposquattingChecker settings` → Configure Edge TyposquattingChecker (D)
 - `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override)` Manage Search Engines (E+C) → (`[{"allow_search_engine_discovery":true},{"is_default":true,"search_url":"https://www.google.com/search?q={searchTerms}","name":"Google","keyword":"google.com"}]`)
-- `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override) > Performance` Manage Search Engines (E+C) → (`[{"allow_search_engine_discovery":true},{"is_default":true,"search_url":"https://www.google.com/search?q={searchTerms}","name":"Google","keyword":"google.com"}]`)
+- `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override) > Performance` → Enable efficency mode when the device is connected to a power source (E)
