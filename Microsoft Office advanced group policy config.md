@@ -12,11 +12,16 @@
 - `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Global Options` → Default Office theme (E+C)
 - `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Updates` → Don't install Microsoft Teams with new installations or updates of Office (E)		
 - `User Configuration > Administrative Templates > Microsoft Office 2016 > AutoSave`
+	-  Turn off AutoSave by default in Excel (E)
+	-  Turn off AutoSave by default in PowerPoint (E)
+	-  Turn off AutoSave by default in Word (E)
 - `User Configuration > Administrative Templates > Microsoft Office 2016 > Improved Error Reporting`
+	- Stop reporting error messages (E)
+	- Stop reporting non-critical errors (E)
 - `User Configuration > Administrative Templates > Microsoft Office 2016 > Miscellaneous`
 	- Show LinkedIn Features in Office applications (D)
-	- Show OneDrive Sign In (D)
 	- Show Screen Tips (E+C)
+	- Show OneDrive Sign In (D)
 - `User Configuration > Administrative Templates > Microsoft Office 2016 > Privacy > Trust Center`
 	- Allow the use of connected experiences in Office (D)
 	- Allow Microsoft to follow up on feedback submitted by users (D)
