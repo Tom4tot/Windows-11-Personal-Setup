@@ -1,0 +1,48 @@
+# Microsoft Office advanced group policy config
+
+### How to get/import the custom group policy configuration for Microsft Office:
+- [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
+- How to import the policies:
+		- Download [templates](https://www.microsoft.com/en-us/download/details.aspx)
+		- Execute the .exe and import the policies you want, e.g.
+		- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
+		- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
+
+### Configuration
+- `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Global Options` → Default Office theme (E+C)
+- `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Updates` → Don't install Microsoft Teams with new installations or updates of Office (E)		
+- `User Configuration > Administrative Templates > Microsoft Office 2016 > AutoSave`
+- `User Configuration > Administrative Templates > Microsoft Office 2016 > Improved Error Reporting`
+- `User Configuration > Administrative Templates > Microsoft Office 2016 > Miscellaneous`
+	- Show LinkedIn Features in Office applications (D)
+	- Show OneDrive Sign In (D)
+	- Show Screen Tips (E+C)
+- `User Configuration > Administrative Templates > Microsoft Office 2016 > Privacy > Trust Center`
+	- Allow the use of connected experiences in Office (D)
+	- Allow Microsoft to follow up on feedback submitted by users (D)
+	- Enable Customer Experience Improvement Program (D)
+	- Allow users to include log files and content samples when they submit feedback to Microsoft (D)
+	- Allow the use of connected experiences in Office that analyze content (D)
+	- Allow the use of connected experiences in Office that download online content (D)
+	- Allow the use of additional optional connected experiences in Office (D)
+	- Allow users to include screenshots and attachments when they submit feedback to Microsoft (D)
+	- Allow users to submit feedback to Microsoft (D)
+	- Allow users to receive and respond to in-product surveys from Microsoft (D)
+	- Send personal information (D)
+	- Automatically receive small updates to improve reliability (D)
+	- Disable Opt-in Wizard on first run (D)
+	- Configure the level of client software diagnostic data sent by Office to Microsoft (E+C)
+- `User Configuration > Administrative Templates > Microsoft Office 2016 > Telemetry Dashboard`
+	- Turn on telemetry data collection (D)
+	- Turn on data uploading for Office Telemetry Agent (D)
+	- Turn on privacy settings in Office Telemetry Agent (E)
+	- Office applications to exclude from Office Telemetry Agent reporting (E+C)
+	- Office solutions to exclude from Office Telemetry Agent reporting (E+C)
+- `User Configuration > Administrative Templates > Microsoft Office 2016 > Tools I Options I General I Web Options...` → Display Developer tab in the Ribbon (E)
+- `User Configuration > Administrative Templates > Microsoft Office 2016 > Tools | Options | Spelling` → Allow accented uppercase in French (E)
+- `User Configuration > Administrative Templates > Microsoft Office 2016 > Tools | Options | Spelling \Proofing Data Collection` → Improve Proofing Tools (D)
+- `User Configuration > Administrative Templates > Microsoft Word 2016 > Advanced > File Locations` → (E+C)
+- `User Configuration > Administrative Templates > Microsoft Word 2016 > Customize Ribbon` → Display Developer tab in the Ribbon (E)
+- `User Configuration > Administrative Templates > Microsoft Word 2016 > Proofing > AutoCorrect`
+	- Correct TWO INitial CApitals (E)
+	- Correct accidental usage of CAPS LOCK key (E)
