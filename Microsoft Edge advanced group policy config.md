@@ -1,4 +1,4 @@
-# Microsoft Edge advanced group policy config
+# Microsoft Edge advanced group policy config (ADMX/ADML templates)
 
 ### How to get/import the custom group policy configuration for Microsft Edge:
 - [Official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge))
