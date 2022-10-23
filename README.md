@@ -1,4 +1,4 @@
-# Windows 11 Personal Setup - privacy tweaks with GPEDIT
+# Windows 11 Personal Setup | Privacy tweaks with GPEDIT
 
 ### Introduction and general information
 Made for: Windows 11 22H2  
@@ -180,6 +180,7 @@ This covers all the steps I personally go though when performing a clean install
 		- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
 		- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
 	- Advanced tweaks: see this config file [MS EDGE advanced GP config](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Microsoft%20Edge%20advanced%20group%20policy%20config.md)
+- Microsoft Office [advanced tweaks](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Microsoft%20Office%20advanced%20group%20policy%20config.md)
 
 ### Settings & tweaks - Others
 - Uninstall all unnecessary user UWP apps
