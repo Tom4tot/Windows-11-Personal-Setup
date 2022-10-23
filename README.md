@@ -179,7 +179,7 @@ This covers all the steps I personally go though when performing a clean install
 		- Allow web content on New Tab page (D)
 		- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
 		- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
-	- Advanced tweaks: see this config file [MS EDGE advanced GP config](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Microsoft%20Edge%20advanced%20group%20policy%20config.md)
+	- [Advanced tweaks](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Microsoft%20Edge%20advanced%20group%20policy%20config.md)
 - Microsoft Office [advanced tweaks](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Microsoft%20Office%20advanced%20group%20policy%20config.md)
 
 ### Settings & tweaks - Others
