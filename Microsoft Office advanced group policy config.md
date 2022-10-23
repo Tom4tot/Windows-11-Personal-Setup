@@ -1,4 +1,4 @@
-# Microsoft Office advanced group policy config
+# Microsoft Office advanced Group Policy Config (ADMX/ADML templates)
 
 ### How to get/import the custom group policy configuration for Microsft Office:
 - [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
