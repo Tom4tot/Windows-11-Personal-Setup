@@ -1,0 +1,57 @@
+# MS EDGE advanced GP config
+
+### How to get/import the custom group policy configuration for Microsft Edge:
+- [Official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge))
+- How to import the policies:
+	- Download [templates](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ)
+	- Extract the .cab
+	- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
+	- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
+
+### Configuration
+- `Computer Configuration > Administrative Templates > Microsoft Edge`
+	- Enable Microsoft Search in Bing suggestions in the address bar (D)
+	- Suggest similar pages when a webpage can't be found	(D)
+	- Set application locale (D)
+	- Get user confirmation before closing a browser window with multiple tabs (D)
+	- Automatically import another browser's data and settings at first run (E)
+	- Enable AutoFill for addresses (D)
+	- Enable AutoFill for payment instruments	(D)
+	- Configure Automatic HTTPS (E)
+	- Allow media autoplay for websites (D)
+	- Continue running background apps after Microsoft Edge closes (D)
+	- Browser sign-in settings (E)
+	- Configure the Share experience (E)
+	- Set Microsoft Edge as default browser (D)
+	- Define an ordered list of preferred languages that websites should display in if the site supports the language	(E)
+	- Send required and optional diagnostic data about browser usage (E)
+	- Allow download restrictions (E)
+	- Enable the Collections feature (D)
+	- Enable Drop feature in Microsoft Edge (D)
+	- Enhance images enabled	 (D)
+	- Enable Follow service in Microsoft Edge	(D)
+	- Shopping in Microsoft Edge Enabled	(D)
+	- Control communication with the Experimentation and Configuration Service (E+C)
+	- Enable favorites bar (D)
+	- Hide the First-run experience and splash screen	(E)
+	- Hide the one-time redirection dialog and the banner on Microsoft Edge (E)
+	- Show Hubs Sidebar (D)
+	- Enable Windows to search local Microsoft Edge browsing data (D)
+	- Allow single sign-on for Microsoft personal sites using this profile (D)
+	- Microsoft Edge Insider Promotion Enabled (D)
+	- Allow personalization of ads, Microsoft Edge, search, news and other - Microsoft services by sending browsing history, favorites and collections, usage and other browsing data to Microsoft (D)
+	- Enable full-tab promotional content (D)
+	- Enables Microsoft Edge mini menu (D)
+	- Configure Related Matches in Find on Page (D)
+	- Enable resolution of navigation errors using a web service (D)
+	- Show Microsoft Rewards experiences (D)
+	- Allow feature recommendations and browser assistance notifications from Microsoft Edge (D)
+	- Disable synchronization of data using Microsoft sync services	Enabled	No
+	- Enable travel assistance (D)
+	- Visual search enabled (D)
+	- Enable the Edge bar (D)
+	- Allow the Edge bar at Windows startup (D)
+- `Computer Configuration > Administrative Templates > Microsoft Edge > SmartScreen settings`
+	- Configure Microsoft Defender SmartScreen (D)
+		- Configure Microsoft Defender Smartscreen to block potentially unwanted apps (D)
+- `Computer Configuration > Administrative Templates > Microsoft Edge - Default Settings (users can override)` Manage Search Engines (E+C) → (`[{"allow_search_engine_discovery":true},{"is_default":true,"search_url":"https://www.google.com/search?q={searchTerms}","name":"Google","keyword":"google.com"}]`)
