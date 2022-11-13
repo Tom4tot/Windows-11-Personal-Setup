@@ -5,7 +5,7 @@
 - How to import the policies:
 		- Download [templates](https://www.microsoft.com/en-us/download/confirmation.aspx?id=49030)
 		- Execute the .exe and import the policies you want, e.g.  
-		- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
+		- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`  
 		- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
 
 ### Configuration
