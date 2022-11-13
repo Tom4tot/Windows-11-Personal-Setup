@@ -3,7 +3,7 @@
 ### How to get/import the custom group policy configuration for Microsft Office:
 - [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
 - How to import the policies:
-		- Download [templates](https://www.microsoft.com/en-us/download/details.aspx)
+		- Download [templates](https://www.microsoft.com/en-us/download/confirmation.aspx?id=49030)
 		- Execute the .exe and import the policies you want, e.g.
 		- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
 		- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
