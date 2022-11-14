@@ -11,11 +11,12 @@
 - Uninstall command: `Get-AppxPackage -AllUsers PACKAGENAME | Remove-AppxPackage -AllUsers`
     - e.g. `Get-AppxPackage -AllUsers Clipchamp.Clipchamp | Remove-AppxPackage -AllUsers`
 ## Personal user apps
-- W11 22H2 Pro: 
+- W11 22H2 Pro/Education: 
     - Clipchamp.Clipchamp
     - Microsoft.549981C3F5F10 *(Cortana)*
     - Microsoft.BingNews
     - Microsoft.BingWeather
+    - Microsoft.GamingApp
     - Microsoft.GetHelp
     - Microsoft.Getstarted *(can't be easily removed)*
     - Microsoft.MicrosoftOfficeHub
@@ -29,16 +30,21 @@
     - microsoft.windowscommunicationsapps
     - Microsoft.WindowsFeedbackHub
     - Microsoft.WindowsMaps
+    - Microsoft.WindowsSoundRecorder
     - Microsoft.XboxGameOverlay
     - Microsoft.XboxIdentityProvider
     - Microsoft.XboxSpeechToTextOverlay
-    - MicrosoftCorporationII.QuickAssist  
+    - Microsoft.ZuneMusic
+    - Microsoft.ZuneVideo
+    - MicrosoftCorporationII.QuickAssist
+    - MicrosoftTeams  
 
 **PowerShell Commmand to delete them all:**  
 Get-AppxPackage -AllUsers Clipchamp.Clipchamp | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.549981C3F5F10 | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.BingNews | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.BingWeather | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.GamingApp | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.GetHelp | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.MicrosoftOfficeHub | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.MicrosoftSolitaireCollection | Remove-AppxPackage -AllUsers  
@@ -51,11 +57,15 @@ Get-AppxPackage -AllUsers Microsoft.WindowsAlarms | Remove-AppxPackage -AllUsers
 Get-AppxPackage -AllUsers microsoft.windowscommunicationsapp | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.WindowsFeedbackHub | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.WindowsMaps | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.WindowsSoundRecorder | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.XboxGameOverlay | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.XboxIdentityProvider | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.XboxSpeechToTextOverlay | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.YourPhone  | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.ZuneMusic | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.ZuneVideo | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MicrosoftCorporationII.QuickAssist  | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers MicrosoftTeams | Remove-AppxPackage -AllUsers  
 
 ## Official (seems slightly outdated)
 - [User apps](https://learn.microsoft.com/en-us/windows/application-management/provisioned-apps-windows-client-os) 
