@@ -1,4 +1,4 @@
-## Privacy settings  
+## Privacy-related group policy settings  
 - `Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options > Handwriting personalization` → Turn off automatic learning (E)
 - `Computer Configuration > Administrative Templates > System > Internet Communication Management > Internet Communication settings`
 	- Turn off Windows Customer Experience Improvement Program (E)
