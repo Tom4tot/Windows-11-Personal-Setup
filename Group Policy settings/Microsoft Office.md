@@ -1,5 +1,4 @@
 # Microsoft Office advanced Group Policy Config (ADMX/ADML templates)
-
 ### How to get/import the custom group policy configuration for Microsft Office:
 - [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
 - How to import the policies:
@@ -7,7 +6,6 @@
 		- Execute the .exe and import the policies you want, e.g.  
 		- Import `word16.admx"` to `C:\Windows\PolicyDefinitions`  
 		- Import `word16.adml` to `C:\Windows\PolicyDefinitions\en-US`
-
 ### Configuration
 - `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Global Options` → Default Office theme (E+C)
 - `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Updates` → Don't install Microsoft Teams with new installations or updates of Office (E)		
