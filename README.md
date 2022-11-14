@@ -98,7 +98,7 @@ This covers all the steps I personally go though when performing a clean install
 #### [Microsoft Edge basic and advanced settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Microsoft%20Edge.md)
 
 ### Settings & tweaks - Others
-- Uninstall all unnecessary user UWP apps (see PowerShell commands below)
+- [Uninstall all unnecessary preinstalled *provisioned* user apps](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/PowerShell%20Commands.md)
 - Most important Windows Settings
   - System → Power
   - System → Multitasking
@@ -107,8 +107,6 @@ This covers all the steps I personally go though when performing a clean install
   - Bluetooth & devices → Touchpad
   - Turn on BitLocker
   - Privacy & security → open Windows Security → disable Tamper Protection 
-- PowerShell commands
-    - Remove YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
 - services.msc: services to disable
