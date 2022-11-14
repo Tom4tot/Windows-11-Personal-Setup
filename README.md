@@ -26,7 +26,7 @@ This covers all the steps I personally go though when performing a clean install
 - [Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2) - Tool to analyse/edit audio files (last update that doesn't include telemetry)
 - [*Everything*](https://www.voidtools.com/) - Locate files and folders by name instantly
 - [*Foobar2000*](https://www.foobar2000.org/download) - My favorite music player by far
-- [HandBrake](https://handbrake.fr/) - Best video converter
+- [HandBrake](https://handbrake.fr/) - Favorite video converter
 - [JPEGView](https://github.com/sylikc/jpegview) - extremely fast and lightweight image viewer (fork)
 - [KeePassXC](https://keepassxc.org/download/#windows) - Cross-Platform Password Manager
 - [LameXP](https://lamexp.sourceforge.net/page_3.php) - Multi-format audio file converter
@@ -35,8 +35,8 @@ This covers all the steps I personally go though when performing a clean install
 - [MPC-HC](https://github.com/clsid2/mpc-hc) - One of my favorite video player (fork)
 - [MPV](https://sourceforge.net/projects/mpv-player-windows/files/64bit-v3/) - My favorite video player
 - [Notepad++](https://notepad-plus-plus.org/downloads/) - My favorite text editor
-- [qBittorrent](https://www.qbittorrent.org/download.php) - Best torrent client
-- [ShareX](https://getsharex.com/downloads/) - Best screen capture tools, many other features
+- [qBittorrent](https://www.qbittorrent.org/download.php) - Favorite torrent client
+- [ShareX](https://getsharex.com/downloads/) - Favorite screen capture tools, many other features
 - [simplewall](https://github.com/henrypp/simplewall/) - great firewall
 - [Spek](https://github.com/MikeWang000000/spek-X/) - Acoustic spectrum analyser (fork)
 - [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer) - My favorite PDF viewer
@@ -50,7 +50,7 @@ This covers all the steps I personally go though when performing a clean install
 - [Driver Store Explorer [RAPR]](https://github.com/lostindark/DriverStoreExplorer) - Manage drivers
 
 #### Installed applications
-- [7-zip](https://www.7-zip.org/download.html) - best file archiver
+- [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
 - [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows
@@ -206,4 +206,4 @@ This covers all the steps I personally go though when performing a clean install
 - services.msc: services to disable
 	- Connected User Experiences and Telemetry
 	- Microsoft Account Sign-In Assistant
-- Disable telemetry in Microsoft Office
+- Disable telemetry in Microsoft Office (can be done with GPE)
