@@ -14,7 +14,6 @@
 	- Extract the .zip
 	- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
 	- Import `MicrosoftEdgePolicyTemplates\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
-
 ### Configuration
 - `Computer Configuration > Administrative Templates > Microsoft Edge`
 	- Enable Microsoft Search in Bing suggestions in the address bar (D)
