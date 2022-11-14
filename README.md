@@ -173,7 +173,13 @@ This covers all the steps I personally go though when performing a clean install
 	- `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus > Real-time protection` → Turn off real-time protection (E)
 		- `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus` → Configure detection for potentially unwanted applications (D)
 	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Enhanced Phising Protection` → Service Enabled (D)
-	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Explorer` → Configure Windows Defender SmartScreen(D)
+	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Explorer` → Configure Windows Defender SmartScreen (D)
+- Control Panel (lock screen, language)
+    - `Computer Configuration > Administrative Templates > Control Panel` → Allow Online Tips (D)
+    - `Computer Configuration > Administrative Templates > Control Panel > Personalization` → Do not display the lock screen (E)
+    - `Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options`
+        - Restricts the UI language Windows uses for all logged users (E)
+        - Force selected system UI language to overwrite the user UI language (E+C)
 - Microsoft Edge:
 	- Basic tweaks: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Edge`
 		- Allow extended telemetry for the Books tab (D)
