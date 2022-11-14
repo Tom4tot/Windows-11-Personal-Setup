@@ -1,5 +1,5 @@
 # Windows 11 Personal Setup
-## Installation process | Essential programs | Privacy tweaks with GPEDIT | General tweaks, commands and scripts
+## Installation process | Essential programs | Privacy tweaks with GPEDIT | PowerShell commands to remove Provisioned apps | General tweaks
 
 ### Introduction and general information
 Made for: Windows 11 22H2  
