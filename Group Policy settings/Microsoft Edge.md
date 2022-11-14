@@ -1,9 +1,9 @@
 ## Microsoft Edge basic settings
 - `Computer Configuration > Administrative Templates > Windows Components > Microsoft Edge`
 	- Allow extended telemetry for the Books tab (D)
-		- Allow web content on New Tab page (D)
-		- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
-		- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
+	- Allow web content on New Tab page (D)
+	- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
+	- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
 
 ## Microsoft Edge advanced group policy config (ADMX/ADML templates)
 ### How to get/import the custom group policy configuration for Microsft Edge:
