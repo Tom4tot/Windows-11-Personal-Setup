@@ -1,4 +1,5 @@
-# Windows 11 Personal Setup | Privacy tweaks with GPEDIT
+# Windows 11 Personal Setup
+## Installation process | Essential programs | Privacy tweaks with GPEDIT | General tweaks, commands and scripts
 
 ### Introduction and general information
 Made for: Windows 11 22H2  
@@ -91,107 +92,14 @@ This covers all the steps I personally go though when performing a clean install
 	- You can also directly import my config that is attached to this repository
 	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
 
-#### Privacy edits  
-- `Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options > Handwriting personalization` → Turn off automatic learning (E)
-- `Computer Configuration > Administrative Templates > System > Internet Communication Management > Internet Communication settings`
-	- Turn off Windows Customer Experience Improvement Program (E)
-	- Turn off Windows Error Reporting (E)
-	- Turn off the Windows Messenger Customer Experience Improvement Program (E)
-- `Computer Configuration > Administrative Templates > System > OS Policies`
-	- Allow Clipboard History (D)
-	- Enables Activity Feed (D)
-	- Allow publising of User Activities (D)
-	- Allow upload of User Activities (D)
-- `Computer Configuration > Administrative Templates > System > User Profiles` → Turn off the advertising ID (E)
-- `Computer Configuration > Administrative Templates > Windows Components > Application Compatibility`
-	- Turn off Application Telemetry (E)
-	- Turn off Inventory Collector (E)
-	- Turn off Steps Recorder (E)
-- `Computer Configuration > Administrative Templates > Windows Components > Cloud Content​`
-	- Do not show Windows tips (E)
-	- Turn off Microsoft consumer experiences (E)
-- `Computer Configuration > Administrative Templates > Windows Components > Data Collection and Preview Builds`
-	- Allow Desktop Analytics Processing (D)
-	- Allow device name to be sent in Windows diagnostic data (D)
-	- Allow Diagnostic data (E+C) + Configure Authenticated Proxy usage for the Connected User Experience and Telemetry service (E+C)
-	- Disable OneSettings Downloads (E)
-	- Enable OneSettings Auditing (D)
-	- Limit Diagnostic Log Collection (E)
-	- Limit Dump Collection (E)
-	- Limit optional diagnostic data for Desktop Analytics (D)
-	- Do not show feedback notifications (E)
-	- Configure collection of browsing data for Desktop Analytics (E+C)
-- `Computer Configuration > Administrative Templates > Windows Components > File Explorer` → Configure Windows Defender SmartScreen (D)
-- `Computer Configuration > Administrative Templates > Windows Components > Find My Device` → Turn On/Off Find My Device (D)
-- `Computer Configuration > Administrative Templates > Windows Components > Location and Sensors`
-	- Turn off location (E)
-	- Turn off location scripting (E)
-- `Computer Configuration > Administrative Templates > Windows Components > Maps`
-	- Turn off unsolicited network traffic on the Offline Maps settings page (E)
-	- Turn off Automatic Download and Update of Map Data (E)
-- `Computer Configuration > Administrative Templates > Windows Components > OneDrive`
-	- Prevent the usage of OneDrive for file storage (E)
-	- Save documents to OneDrive by default (D)
-- `Computer Configuration > Administrative Templates > Windows Components > Search`
-	- Allow Cloud Search (D)
-	- Allow Cortana (D)
-	- Do not allow web search (E)
-	- Don't search the web or display web results in Search (E)
-	- Set what information is shared in Search (E+C)
-- `Computer Configuration > Administrative Templates > Windows Components > Speach` → Allow automatic Update of Speech Data (D)
-- `Computer Configuration > Administrative Templates > Windows Components > Sync` your settings → Do not sync (E)
-- `Computer Configuration > Administrative Templates > Windows Components > Text Input` → Improve inking and typing recognition (D)
-- `Computer Configuration > Administrative Templates > Windows Components > Windows Error Reporting` → Disable Windows Error Reporting (E)
-- `User Configuration > Administrative Templates > Start Menu and Taskbar`
-	- Remove the People Bar from the taskbar (E)
-	- Turn off feature advertisement balloon notifications (E)
-- `User Configuration > Administrative Templates > System > lnternet Communication Management > lnternet Communication settings`
-	- Turn off Help Ratings (E)
-	- Turn off Help Experience Improvement Program (E)
-	- Turn off Windows Online (E)
-	- Turn off the Windows Messenger Customer Experience Improvement Program (E)
-- `User Configuration > Administrative Templates > Windows Components > Cloud Content`​
-	- Turn Off Spotlight collection on Desktop (E)
-	- Do not use diagnostic data for tailored experiences (E)
-	- Do not suggest third-party content in Windows spotlight (E)
-	- Turn off all Windows spotlight features (E)
-	- Turn off Windows Spotlight on Action Center (E)
-	- Turn off Windows Spotlight on Settings (E)
-	- Turn off the Windows Welcome Experience (E)
-- `User Configuration > Administrative Templates > Windows Components > Edge UI`
-	- Disable help tips (E)
-	- Turn off tracking of app usage (E)
-- `User Configuration > Administrative Templates > Windows Components > File Explorer` → Turn off display of recent search entries in the File Explorer search box (E)
-- `Computer Configuration > Administrative Templates > Windows Components > Text Input` → Improve inking and typing recognition (D)
-- `User Configuration > Administrative Templates > Windows Components > Search` → Turn off storage and display of search history (E)
-
-#### UI/UX edits
-- Disable chat: `Computer Configuration > Administrative Templates > Windows Components > Chat` → Configures the Chat icon on the taskbar (E+C)
-- Disable Widgets: `Computer Configuration > Administrative Templates > Windows Components > Widgets` → Allow widgets (D)
-- Disable Connected Modern Standby: `Computer Configuration > Administrative Templates > System > Power Management > Sleep Settings` → Allow network connectivity during connected-standby (on battery) (D)
-- Microsoft Defender
-	- `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus > Real-time protection` → Turn off real-time protection (E)
-		- `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus` → Configure detection for potentially unwanted applications (D)
-	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Enhanced Phising Protection` → Service Enabled (D)
-	- `Computer Configuration > Administrative Templates > Windows Components > Windows Defender SmartScreen > Explorer` → Configure Windows Defender SmartScreen (D)
-- Control Panel (lock screen, language)
-    - `Computer Configuration > Administrative Templates > Control Panel` → Allow Online Tips (D)
-    - `Computer Configuration > Administrative Templates > Control Panel > Personalization` → Do not display the lock screen (E)
-    - `Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options`
-        - Restricts the UI language Windows uses for all logged users (E)
-        - Force selected system UI language to overwrite the user UI language (E+C)
-- Microsoft Edge:
-	- Basic tweaks: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Edge`
-		- Allow extended telemetry for the Books tab (D)
-		- Allow web content on New Tab page (D)
-		- Allow Microsoft Edge to pre-launch at Windows Startup, when the system is idle, and each time Microsoft Edge is closed (E+C)
-		- ALlow Microsoft Edge to start and load the start and New Tab pag at Windows startup and each time Microsoft Edge is closed (E+C)
-	- [Advanced tweaks](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Microsoft%20Edge%20advanced%20group%20policy%20config.md)
-- Microsoft Office [advanced tweaks](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Microsoft%20Office%20advanced%20group%20policy%20config.md)
+### [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md)
+### [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
+### [Microsoft Office advanced settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Microsoft%20Office.md)
+### [Microsoft Edge basic and advanced settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Microsoft%20Edge.md)
 
 ### Settings & tweaks - Others
-- Uninstall all unnecessary user UWP apps
-- Windows Settings
+- Uninstall all unnecessary user UWP apps (see PowerShell commands below)
+- Most important Windows Settings
   - System → Power
   - System → Multitasking
   - System → Clipboard
@@ -200,7 +108,7 @@ This covers all the steps I personally go though when performing a clean install
   - Turn on BitLocker
   - Privacy & security → open Windows Security → disable Tamper Protection 
 - PowerShell commands
-  - Remove YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
+    - Remove YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
 - services.msc: services to disable
