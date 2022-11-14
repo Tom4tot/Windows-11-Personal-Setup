@@ -193,7 +193,6 @@ This covers all the steps I personally go though when performing a clean install
   - Bluetooth & devices → Touchpad
   - Turn on BitLocker
   - Privacy & security → open Windows Security → disable Tamper Protection 
-  - Windows Security → import this [task](https://github.com/Tom4tot/Microsoft-Defender-RTP-stop/) in Task Scheduler
 - PowerShell commands
   - Remove YourPhone `Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage`
 - Local Security Policy 
