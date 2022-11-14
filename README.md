@@ -2,7 +2,7 @@
 
 ### Introduction and general information
 Made for: Windows 11 22H2  
-Last update: 2022-10-20  
+Last update: 2022-11-14
 
 This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
 - As much automation as possible (portable programs, quick import of settings)
