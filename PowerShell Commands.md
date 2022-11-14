@@ -57,8 +57,6 @@ Get-AppxPackage -AllUsers Microsoft.XboxSpeechToTextOverlay | Remove-AppxPackage
 Get-AppxPackage -AllUsers Microsoft.YourPhone  | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MicrosoftCorporationII.QuickAssist  | Remove-AppxPackage -AllUsers  
 
-- Personal (W11 22H2 Education)
-
 ## Official (seems slightly outdated)
 - [User apps](https://learn.microsoft.com/en-us/windows/application-management/provisioned-apps-windows-client-os) 
     - Microsoft.3DBuilder
