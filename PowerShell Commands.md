@@ -1,5 +1,5 @@
 ## Introduction
-- All apps listed are "provisioned apps", i.e. preinstalled user apps. Unlike "system apps", they can be uninstalled without any risk. They can also be reinstalled from Windows Store.
+- All apps listed are "provisioned apps", i.e. preinstalled user apps. Unlike "system apps", they can be uninstalled without any risk. They can also be reinstalled from Windows Store, since they are UWP apps.
   - [About provisioned apps](https://learn.microsoft.com/en-us/windows/application-management/provisioned-apps-windows-client-os)
   - [About system apps](https://learn.microsoft.com/en-us/windows/application-management/system-apps-windows-client-os)
  - The purpose of these commands is to make the processs way faster than manually uninstalling apps from the start menu or from the "add or remove programs" setting page. It will also be applied to all users as long as you keep the two `-AllUsers` argument.
