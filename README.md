@@ -99,6 +99,20 @@ This covers all the steps I personally go though when performing a clean install
 
 ### Settings & tweaks - Others
 - [Uninstall all unnecessary preinstalled *provisioned* user apps](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/PowerShell%20Commands.md)
+- Local Security Policy 
+  - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
+- services.msc: services to disable
+	- Connected User Experiences and Telemetry
+- Change default app for different file types (currently trying the backup/restore feature of [Default Programs editor](https://defaultprogramseditor.com/))
+- Optional features
+  - Facial Recognition
+  - Math Recognizer
+  - Internet Explorer mode
+  - Steps recorder
+  - WMIC
+  - Windows Media Player Legacy
+  - Windows PowerShell ISE
+  - WordPad
 - Most important Windows Settings
   - System → Power
   - System → Multitasking
@@ -107,9 +121,3 @@ This covers all the steps I personally go though when performing a clean install
   - Bluetooth & devices → Touchpad
   - Turn on BitLocker
   - Privacy & security → open Windows Security → disable Tamper Protection 
-- Local Security Policy 
-  - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
-- services.msc: services to disable
-	- Connected User Experiences and Telemetry
-	- Microsoft Account Sign-In Assistant
-- Disable telemetry in Microsoft Office (can be done with GPE)
