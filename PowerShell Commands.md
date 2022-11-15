@@ -57,6 +57,7 @@ Get-AppxPackage -AllUsers Microsoft.PowerAutomateDesktop | Remove-AppxPackage -A
 Get-AppxPackage -AllUsers Microsoft.ScreenSketch | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.Todos | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.WindowsAlarms | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers microsoft.windowscommunicationsapps | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers microsoft.windowscommunicationsapp | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.WindowsFeedbackHub | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.WindowsMaps | Remove-AppxPackage -AllUsers  
