@@ -56,7 +56,7 @@ This covers all the steps I personally go though when performing a clean install
             - `Set-ExecutionPolicy AllSigned`
             - `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
             - Command to install all programs silently: `choco install 7zip eartrumpet firefox f.lux nextcloud powertoys soulseek teamviewer twinkle-tray -y`
-    - WinGet - see packages [here]([https://community.chocolatey.org/packages](https://winget.run/))
+    - Winget - see packages [here]([https://community.chocolatey.org/packages](https://winget.run/))
         - Command to install all programs silently: 
 - [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
@@ -75,7 +75,7 @@ This covers all the steps I personally go though when performing a clean install
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 ##### Only available on Microsoft Store
 - [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
-##### Not available on Chocolatey
+##### Not available on Chocolatey or Winget
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows
 - [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
 - [*Microsoft Office*](https://www.heidoc.net/joomla/technology-science/microsoft/16-office-2021-direct-download-links) - Office suite (direct link)
