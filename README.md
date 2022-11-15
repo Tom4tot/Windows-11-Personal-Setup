@@ -44,14 +44,12 @@ This covers all the steps I personally go though when performing a clean install
 - [*TagScanner*](https://www.xdlab.ru/en/) - Another one of my favorite tag editor for music
 - [WinCDEmu](https://github.com/sysprogs/WinCDEmu) - CD/DVD/BD emulator
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Easily download video/audio files from YouTube (fork)
-
 #### Portable tools
 - [BleachBit](https://www.bleachbit.org/download/windows) - Disk space cleaner, privacy manager, and computer system optimizer
 - [*HWiNFO*](https://www.hwinfo.com/download/) - System Information
 - [Driver Store Explorer [RAPR]](https://github.com/lostindark/DriverStoreExplorer) - Manage drivers
-
 #### Installed applications
-#### Only available on Microsoft Store
+##### Only available on Microsoft Store
 - [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
 ##### Available on Chocolatey
