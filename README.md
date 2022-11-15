@@ -51,10 +51,15 @@ This covers all the steps I personally go though when performing a clean install
 - [Driver Store Explorer [RAPR]](https://github.com/lostindark/DriverStoreExplorer) - Manage drivers
 
 #### Installed applications
-- [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
+#### Only available on Microsoft Store
 - [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
-- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows
+##### Available on Chocolatey
+	- Installation (PowerShell with admin rights)
+		- `Set-ExecutionPolicy AllSigned`
+		- `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+		- `choco install 7zip firefox f.lux nextcloud powertoys soulseek teamviewer twinkle-tray`
+- [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
 - [Firefox](https://www.mozilla.org/fr/firefox/all/#product-desktop-release) - Main browser
   - Add-ons: 
     - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
@@ -63,14 +68,16 @@ This covers all the steps I personally go though when performing a clean install
     - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
     - A working twitch adblocker, see [TwitchAdSolutions](https://github.com/pixeltris/TwitchAdSolutions)
 - [*f.lux*](https://justgetflux.com/) - My favorite nightlight software on Windows
-- [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
-- [*Microsoft Office*](https://www.heidoc.net/joomla/technology-science/microsoft/16-office-2021-direct-download-links) - Office suite (direct link)
 - [NextCloud](https://nextcloud.com/install/) - Cloud Client
 - [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
 - [*Soulseek*](https://www.slsknet.org/news/node/1) - To share and download music files that I legally own
-- [Sublte](https://github.com/tvdburgt/subtle) - Subtitles downloader
 - [*TeamViewer*](https://www.teamviewer.com) - When I need to support a relative with IT stuff
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
+##### Not available on Chocolatey
+- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows
+- [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
+- [*Microsoft Office*](https://www.heidoc.net/joomla/technology-science/microsoft/16-office-2021-direct-download-links) - Office suite (direct link)
+- [Sublte](https://github.com/tvdburgt/subtle) - Subtitles downloader
 
 ### Settings & tweaks - Group Policy Editor
 #### Context
