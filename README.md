@@ -57,7 +57,7 @@ This covers all the steps I personally go though when performing a clean install
             - `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
             - Command to install all programs silently: `choco install 7zip eartrumpet firefox f.lux nextcloud powertoys soulseek teamviewer twinkle-tray -y`
     - Winget - see packages [here]([https://community.chocolatey.org/packages](https://winget.run/))
-        - Command to install all programs silently: `winget install 7zip.7zip File-New-Project.EarTrumpet Mozilla.Firefox flux.flux Nextcloud.NextcloudDesktop Soulseek.SoulseekQt TeamViewer.TeamViewer xanderfrangos.twinkletray
+        - Command to install all programs silently: `winget install 7zip.7zip File-New-Project.EarTrumpet Mozilla.Firefox flux.flux Nextcloud.NextcloudDesktop Soulseek.SoulseekQt TeamViewer.TeamViewer xanderfrangos.twinkletray`
 
   
 - [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
