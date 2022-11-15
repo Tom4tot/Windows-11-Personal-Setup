@@ -76,7 +76,7 @@ This covers all the steps I personally go though when performing a clean install
 ##### Only available on Microsoft Store
 - [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
 ##### Not available on Chocolatey or Winget
-- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows
+- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows (available on Winget)
 - [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
 - [*Microsoft Office*](https://www.heidoc.net/joomla/technology-science/microsoft/16-office-2021-direct-download-links) - Office suite (direct link)
 - [Sublte](https://github.com/tvdburgt/subtle) - Subtitles downloader
