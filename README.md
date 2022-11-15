@@ -104,7 +104,7 @@ This covers all the steps I personally go though when performing a clean install
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
 - services.msc: services to disable
 	- Connected User Experiences and Telemetry
-- Change default app for different file types (currently trying the backup/restore feature of [Default Programs editor](https://defaultprogramseditor.com/))
+- Change default app for different file types
 - Optional features
   - Facial Recognition
   - Math Recognizer
