@@ -4,7 +4,7 @@
 - How to import the policies:
 		- Download [templates](https://www.microsoft.com/en-us/download/confirmation.aspx?id=49030)
 		- Execute the .exe and import the policies you want, e.g.  
-		- Import `word16.admx"` to `C:\Windows\PolicyDefinitions`  
+		- Import `word16.admx` to `C:\Windows\PolicyDefinitions`  
 		- Import `word16.adml` to `C:\Windows\PolicyDefinitions\en-US`
 ### Configuration
 - `Computer Configuration > Administrative Templates > Microsoft Office 2016 (Machine) > Global Options` → Default Office theme (E+C)
