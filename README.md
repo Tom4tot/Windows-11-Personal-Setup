@@ -52,8 +52,8 @@ This covers all the steps I personally go though when performing a clean install
 ##### Only available on Microsoft Store
 - [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
-##### Available on Chocolatey
-- Installation (PowerShell with admin rights)
+##### Available on Chocolatey - package manager - you can find available programs [here](https://community.chocolatey.org/packages)
+- [Installation](https://chocolatey.org/install) (PowerShell with admin rights)
 	- `Set-ExecutionPolicy AllSigned`
 	- `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
 	- `choco install 7zip firefox f.lux nextcloud powertoys soulseek teamviewer twinkle-tray`
