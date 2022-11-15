@@ -63,6 +63,7 @@ This covers all the steps I personally go though when performing a clean install
     - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
     - A working twitch adblocker, see [TwitchAdSolutions](https://github.com/pixeltris/TwitchAdSolutions)
 - [*f.lux*](https://justgetflux.com/) - My favorite nightlight software on Windows
+- [FreeFileSYnc](https://freefilesync.org) - My favorite file synchronization tool
 - [*Microsoft Office*](https://www.heidoc.net/joomla/technology-science/microsoft/16-office-2021-direct-download-links) - Office suite (direct link)
 - [NextCloud](https://nextcloud.com/install/) - Cloud Client
 - [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
