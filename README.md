@@ -56,7 +56,7 @@ This covers all the steps I personally go though when performing a clean install
 - [Installation](https://chocolatey.org/install) (PowerShell with admin rights)
 	- `Set-ExecutionPolicy AllSigned`
 	- `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
-	- `choco install 7zip firefox f.lux nextcloud powertoys soulseek teamviewer twinkle-tray`
+	- `choco install -y 7zip firefox f.lux nextcloud powertoys soulseek teamviewer twinkle-tray`
 - [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
 - [Firefox](https://www.mozilla.org/fr/firefox/all/#product-desktop-release) - Main browser
   - Add-ons: 
