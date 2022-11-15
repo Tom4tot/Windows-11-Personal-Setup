@@ -57,6 +57,7 @@ This covers all the steps I personally go though when performing a clean install
             - `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
             - Command to install all programs silently: `choco install 7zip eartrumpet firefox f.lux nextcloud powertoys soulseek teamviewer twinkle-tray -y`
     - Winget - see packages [here]([https://community.chocolatey.org/packages](https://winget.run/))
+    	- Apps have to be installed one by one, or the `&&` argument is needed
         - [Script to install all packages mentioned](script)
 - [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
