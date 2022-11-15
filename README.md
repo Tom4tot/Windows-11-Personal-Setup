@@ -105,6 +105,12 @@ This covers all the steps I personally go though when performing a clean install
 - services.msc: services to disable
 	- Connected User Experiences and Telemetry
 - Change default app for different file types
+  - Video player: mp4, mov, avi, mkv, webm, flv, html5
+  - Music player: mp3, aac, flac, ogg, opus
+  - PDF reader: pdf
+  - image viewer:png, jpg, jpeg, gif, webp, tiff, bmp, heif, xvg
+  - Text viewer: txt
+  - Torrent client: .torrent
 - Optional features
   - Facial Recognition
   - Math Recognizer
