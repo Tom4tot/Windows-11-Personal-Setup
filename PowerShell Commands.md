@@ -31,7 +31,9 @@
     - Microsoft.WindowsFeedbackHub
     - Microsoft.WindowsMaps
     - Microsoft.WindowsSoundRecorder
+    - Microsoft.Xbox.TCUI
     - Microsoft.XboxGameOverlay
+    - Microsoft.XboxGamingOverlay
     - Microsoft.XboxIdentityProvider
     - Microsoft.XboxSpeechToTextOverlay
     - Microsoft.ZuneMusic
@@ -45,7 +47,8 @@ Get-AppxPackage -AllUsers Microsoft.549981C3F5F10 | Remove-AppxPackage -AllUsers
 Get-AppxPackage -AllUsers Microsoft.BingNews | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.BingWeather | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.GamingApp | Remove-AppxPackage -AllUsers  
-Get-AppxPackage -AllUsers Microsoft.GetHelp | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.GetHelp | Remove-AppxPackage -AllUsers
+Get-AppxPackage -AllUsers Microsoft.Getstarted | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.MicrosoftOfficeHub | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.MicrosoftSolitaireCollection | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.MicrosoftStickyNotes | Remove-AppxPackage -AllUsers  
@@ -58,7 +61,9 @@ Get-AppxPackage -AllUsers microsoft.windowscommunicationsapp | Remove-AppxPackag
 Get-AppxPackage -AllUsers Microsoft.WindowsFeedbackHub | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.WindowsMaps | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.WindowsSoundRecorder | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.Xbox.TCUI | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.XboxGameOverlay | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.XboxGamingOverlay | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.XboxIdentityProvider | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.XboxSpeechToTextOverlay | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.YourPhone  | Remove-AppxPackage -AllUsers  
