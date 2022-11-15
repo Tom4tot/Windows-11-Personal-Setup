@@ -108,7 +108,7 @@ This covers all the steps I personally go though when performing a clean install
   - Video player: mp4, mov, avi, mkv, webm, flv, html5
   - Music player: mp3, aac, flac, ogg, opus
   - PDF reader: pdf
-  - image viewer:png, jpg, jpeg, gif, webp, tiff, bmp, heif, xvg
+  - image viewer: png, jpg, jpeg, gif, webp, tiff, bmp, heif, xvg
   - Text viewer: txt
   - Torrent client: .torrent
 - Optional features
