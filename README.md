@@ -49,13 +49,15 @@ This covers all the steps I personally go though when performing a clean install
 - [*HWiNFO*](https://www.hwinfo.com/download/) - System Information
 - [Driver Store Explorer [RAPR]](https://github.com/lostindark/DriverStoreExplorer) - Manage drivers
 #### Installed applications
-##### Only available on Microsoft Store
-- [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
-##### Available on Chocolatey - package manager - you can find available programs [here](https://community.chocolatey.org/packages)
-- [Installation](https://chocolatey.org/install) (PowerShell with admin rights)
-	- `Set-ExecutionPolicy AllSigned`
-	- `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
-	- `choco install 7zip eartrumpet firefox f.lux nextcloud powertoys soulseek teamviewer twinkle-tray -y`
+##### Automated installation via a package manager
+- Package managers
+    - Chocolatey - see packages [here](https://community.chocolatey.org/packages)
+        - [Installation](https://chocolatey.org/install) (PowerShell with admin rights)
+            - `Set-ExecutionPolicy AllSigned`
+            - `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+            - Command to install all programs silently: `choco install 7zip eartrumpet firefox f.lux nextcloud powertoys soulseek teamviewer twinkle-tray -y`
+    - WinGet - see packages [here]([https://community.chocolatey.org/packages](https://winget.run/))
+        - Command to install all programs silently: 
 - [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
 - [Firefox](https://www.mozilla.org/fr/firefox/all/#product-desktop-release) - Main browser
@@ -71,6 +73,8 @@ This covers all the steps I personally go though when performing a clean install
 - [*Soulseek*](https://www.slsknet.org/news/node/1) - To share and download music files that I legally own
 - [*TeamViewer*](https://www.teamviewer.com) - When I need to support a relative with IT stuff
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
+##### Only available on Microsoft Store
+- [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
 ##### Not available on Chocolatey
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows
 - [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
