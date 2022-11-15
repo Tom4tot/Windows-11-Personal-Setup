@@ -121,4 +121,5 @@ This covers all the steps I personally go though when performing a clean install
   - Bluetooth & devices → Mouse → Additional mouse settings → pointer options → disable enhance pointer precision
   - Bluetooth & devices → Touchpad
   - Turn on BitLocker
-  - Privacy & security → open Windows Security → disable Tamper Protection 
+  - Privacy & security → open Windows Security → disable Tamper Protection
+  - Language & Region → Regional format: English (World) *(allows to use DD/MM/YYYY format and programs will be installed in English instead of your local language)*
