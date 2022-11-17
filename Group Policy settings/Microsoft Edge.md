@@ -21,7 +21,6 @@
 	- Set application locale (D)
 	- Get user confirmation before closing a browser window with multiple tabs (D)
 	- Automatically import another browser's data and settings at first run (E)
-	- Enable AutoFill for addresses (D)
 	- Enable AutoFill for payment instruments (D)
 	- Configure Automatic HTTPS (E)
 	- Allow media autoplay for websites (D)
