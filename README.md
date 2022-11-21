@@ -55,10 +55,10 @@ This covers all the steps I personally go though when performing a clean install
         - [Installation](https://chocolatey.org/install) (PowerShell with admin rights)
             - `Set-ExecutionPolicy AllSigned`
             - `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
-            - Command to install all programs: `choco install 7zip eartrumpet firefox f.lux  jre8 nextcloud powertoys soulseek teamviewer twinkle-tray -y`
+            - Command to install all programs: `choco install 7zip eartrumpet firefox f.lux  jre8 nextcloud pdf24 powertoys soulseek teamviewer twinkle-tray -y`
             - See installed programs: `choco list --localonly`
     - Winget - see packages [here]([https://community.chocolatey.org/packages](https://winget.run/))
-    	- Command to install all programs: `winget install 7zip.7zip && winget install File-New-Project.EarTrumpet && winget install Mozilla.Firefox && winget install flux.flux && winget install Oracle.JavaRuntimeEnvironment && winget install Nextcloud.NextcloudDesktop && winget install Soulseek.SoulseekQt && winget install TeamViewer.TeamViewer && winget install xanderfrangos.twinkletray`
+    	- Command to install all programs: `winget install 7zip.7zip && winget install File-New-Project.EarTrumpet && winget install Mozilla.Firefox && winget install flux.flux && winget install Oracle.JavaRuntimeEnvironment && winget install Nextcloud.NextcloudDesktop&& winget install geeksoftwareGmbH.PDF24Creator && winget install Microsoft.PowerToys && winget install Soulseek.SoulseekQt && winget install TeamViewer.TeamViewer && winget install xanderfrangos.twinkletray`
 - [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
 - [Firefox](https://www.mozilla.org/fr/firefox/all/#product-desktop-release) - Main browser
@@ -71,6 +71,7 @@ This covers all the steps I personally go though when performing a clean install
 - [*f.lux*](https://justgetflux.com/) - My favorite nightlight software on Windows
 - [Java](https://www.java.com/en/) - Needed for some programs
 - [NextCloud](https://nextcloud.com/install/) - Cloud Client
+- [PDF24](https://tools.pdf24.org/fr/creator) - PDF tools
 - [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
 - [*Soulseek*](https://www.slsknet.org/news/node/1) - To share and download music files that I legally own
 - [*TeamViewer*](https://www.teamviewer.com) - When I need to support a relative with IT stuff
