@@ -47,7 +47,7 @@ Get-AppxPackage -AllUsers Microsoft.549981C3F5F10 | Remove-AppxPackage -AllUsers
 Get-AppxPackage -AllUsers Microsoft.BingNews | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.BingWeather | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.GamingApp | Remove-AppxPackage -AllUsers  
-Get-AppxPackage -AllUsers Microsoft.GetHelp | Remove-AppxPackage -AllUsers
+Get-AppxPackage -AllUsers Microsoft.GetHelp | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.Getstarted | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.MicrosoftOfficeHub | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.MicrosoftSolitaireCollection | Remove-AppxPackage -AllUsers  
