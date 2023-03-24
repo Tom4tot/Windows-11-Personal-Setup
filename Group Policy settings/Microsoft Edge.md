@@ -15,4 +15,5 @@
 	- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
 	- Import `MicrosoftEdgePolicyTemplates\windows\admx\en-US\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
 ### Configuration
-![Administrative Templates - Microsoft Edge - all subfolders](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Administrative%20Templates%20-%20Microsoft%20Edge%20-%20all%20subfolders%20(Custom).png)
+![Administrative Templates - Microsoft Edge](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20Administrative%20Templates%20-%20Microsoft%20Edge.png)
+![Administrative Templates - Microsoft Edge - all subfolders](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20Administrative%20Templates%20-%20Microsoft%20Edge%20-%20all%20subfolders.png)
