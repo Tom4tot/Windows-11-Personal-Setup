@@ -19,7 +19,7 @@ This covers all the steps I personally go though when performing a clean install
 - Naviagate to /sources in and add the ei.cfg attached to this repo.
   - Benefits: it will bypass your current Windows key and allow you to choose Windows Education/Enterprise instead of Windows Home.
   	- Education edition is my favorite as it has all the features from Enterprise but is also included in the multi-edition iso available from Windows without an account, unlike the enterprise iso that is hard to get. You can fin a comparison of all versions [here](https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart): 
-- Reboot and install Windows. Make sure to delete all your partitions (except the data one, if you have one) and to choose the professional edition.
+- Reboot and install Windows. Make sure to delete all your partitions (except the data one, if you have one) and to choose the Education/Enterprise/Professional edition.
 
 ### Applications that I use / install (FOSS / *proprietary*) (alphabetic order)
 #### Portable applications
