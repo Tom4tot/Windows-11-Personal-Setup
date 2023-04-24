@@ -132,6 +132,7 @@ This covers all the steps I personally go though when performing a clean install
   - Windows Media Player Legacy
   - Windows PowerShell ISE
   - WordPad
+- Delete OneNote printer through `printmanagement.msc`
 - Most important Windows Settings
   - System → Power
   - System → Multitasking
