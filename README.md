@@ -146,4 +146,5 @@ This covers all the steps I personally go though when performing a clean install
  - Performance tips:
    - Settings → Accessiblity → Disable transparency effects
    - Windows Security → Device Security → Disable core isolation (weakens security)
+   - Windows Security → Searching Windows → Find my files: enhanced
    - Firefox → make sure in about:support that compositing is rendered by WebRender (and not WebRender (software))
