@@ -143,3 +143,7 @@ This covers all the steps I personally go though when performing a clean install
   - Turn on BitLocker
   - Privacy & security → open Windows Security → disable Tamper Protection
   - Language & Region → Regional format: English (World) *(allows to use DD/MM/YYYY format and programs will be installed in English instead of your local language)*
+ - Performance tips:
+   - Settings → Accessiblity → Disable transparency effects
+   - Windows Security → Device Security → Disable core isolation (weakens security)
+   - Firefox → make sure in about:support that compositing is rendered by WebRender (and not WebRender (software))
