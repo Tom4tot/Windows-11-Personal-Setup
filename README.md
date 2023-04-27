@@ -145,6 +145,7 @@ This covers all the steps I personally go though when performing a clean install
   - Language & Region → Regional format: English (World) *(allows to use DD/MM/YYYY format and programs will be installed in English instead of your local language)*
  - Performance tips:
    - Settings → Accessiblity → Disable transparency effects
-   - Windows Security → Device Security → Disable core isolation (weakens security)
+   - Windows Security → Device Security → Disable core isolation (note: weakens security)
    - Windows Security → Searching Windows → Find my files: enhanced
-   - Firefox → make sure in about:support that compositing is rendered by WebRender (and not WebRender (software))
+   - Device Manager → System Devices → High precision event timer (HPET) → disable device (note: improve performance with most hardware)
+   - Firefox → make sure in about:support that compositing is rendered by WebRender (note: and not WebRender (software))
