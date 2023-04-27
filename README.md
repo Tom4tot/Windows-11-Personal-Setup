@@ -147,5 +147,5 @@ This covers all the steps I personally go though when performing a clean install
    - Settings → Accessiblity → Disable transparency effects
    - Windows Security → Device Security → Disable core isolation (note: weakens security)
    - Windows Security → Searching Windows → Find my files: enhanced
-   - Device Manager → System Devices → High precision event timer (HPET) → disable device (note: improve performance with most hardware)
+   - Device Manager → System Devices → High precision event timer (HPET) → disable device (note: improve performance with most hardware - some people say it's snake oil)
    - Firefox → make sure in about:support that compositing is rendered by WebRender (note: and not WebRender (software))
