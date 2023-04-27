@@ -139,7 +139,7 @@ This covers all the steps I personally go though when performing a clean install
   - System → Clipboard
   - Bluetooth & devices → Mouse → Additional mouse settings → pointer options → disable enhance pointer precision
   - Bluetooth & devices → Touchpad
-  - Network & interent → Wi-Fi / Ethernet → Hardware properties → Edit DNS (e.g. 1.1.1.1 & 1.0.0.1 Encrypted)
+  - Network & interent → Wi-Fi / Ethernet → Hardware properties → Edit DNS (e.g. `1.1.1.1` & `1.0.0.1` encrypted)
   - Turn on BitLocker
   - Privacy & security → open Windows Security → disable Tamper Protection
   - Language & Region → Regional format: English (World) *(allows to use DD/MM/YYYY format and programs will be installed in English instead of your local language)*
@@ -149,5 +149,5 @@ This covers all the steps I personally go though when performing a clean install
    - Windows Security → Searching Windows → Find my files: enhanced
    - Device Manager → System Devices → High precision event timer (HPET) → disable device (note: improve performance with most hardware - some people say it's snake oil)
    - Firefox:
-   	- make sure in about:support that compositing is rendered by WebRender (note: and not WebRender (software))
-	- Disable dom.ipc.processPriorityManager.backgroundUsesEcoQoS in about:config (note: disable W11 22H2 effiency mode for Firefox, which affects negatively performance in my experience)
+   	- make sure in about:support that compositing is rendered by `WebRender` (note: and not WebRender (software))
+	- Disable `dom.ipc.processPriorityManager.backgroundUsesEcoQoS` in about:config (note: disable W11 22H2 effiency mode for Firefox, which affects negatively performance in my experience)
