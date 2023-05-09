@@ -151,8 +151,8 @@ This covers all the steps I personally go though when performing a clean install
    - Windows Security → Searching Windows → Find my files: enhanced
    - Device Manager → System Devices → High precision event timer (HPET) → disable device (note: improve performance with most hardware - some people say it's snake oil)
   - Firefox:
-   - make sure in about:support that compositing is rendered by `WebRender` (note: and not WebRender (software))
-   - About:config tweaks:
+  	- make sure in about:support that compositing is rendered by `WebRender` (note: and not WebRender (software))
+  	- about:config tweaks:
    		- `browser.tabs.loadBookmarksInBackground` → true
    		- `browser.bookmarks.openInTabClosesMenu` → false
    		- `dom.ipc.processPriorityManager.backgroundUsesEcoQoS` → true
