@@ -152,5 +152,16 @@ This covers all the steps I personally go though when performing a clean install
    - Device Manager → System Devices → High precision event timer (HPET) → disable device (note: improve performance with most hardware - some people say it's snake oil)
    - Firefox:
    	- make sure in about:support that compositing is rendered by `WebRender` (note: and not WebRender (software))
-	- Disable `dom.ipc.processPriorityManager.backgroundUsesEcoQoS` in about:config (note: disable W11 22H2 effiency mode for Firefox, which affects negatively performance in my experience)
+   	- About:config tweaks:
+   		- `browser.tabs.loadBookmarksInBackground` → true
+   		- `browser.bookmarks.openInTabClosesMenu` → false
+   		- `dom.ipc.processPriorityManager.backgroundUsesEcoQoS` → true
+   		- `full-screen-api.transition-duration.leave` → 50 50
+   		- `full-screen-api.transition-duration.enter` → 50 50
+   		- `full-screen-api.warning.timeout` → 0
+   		- `browser.compactmode.show` → true
+   		- `extensions.pocket.enabled` → false
+   		- `extensions.screenshots.disabled` → true
+   		- `reader.parse-on-load.enabled` → false
+
 - Change "model" name under PC's name: regedit → HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation → string: Model → data: *model*
