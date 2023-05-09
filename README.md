@@ -160,6 +160,7 @@ This covers all the steps I personally go though when performing a clean install
    		- `full-screen-api.transition-duration.enter` → 50 50
    		- `full-screen-api.warning.timeout` → 0
    		- `browser.compactmode.show` → true
+   		- `browser.tabs.tabmanager.enabled` → false
    		- `extensions.pocket.enabled` → false
    		- `extensions.screenshots.disabled` → true
    		- `reader.parse-on-load.enabled` → false
