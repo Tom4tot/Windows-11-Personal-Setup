@@ -155,7 +155,7 @@ This covers all the steps I personally go though when performing a clean install
   	- about:config tweaks:
    		- `browser.tabs.loadBookmarksInBackground` → true
    		- `browser.bookmarks.openInTabClosesMenu` → false
-   		- `dom.ipc.processPriorityManager.backgroundUsesEcoQoS` → true
+   		- `dom.ipc.processPriorityManager.backgroundUsesEcoQoS` → false
    		- `full-screen-api.transition-duration.leave` → 50 50
    		- `full-screen-api.transition-duration.enter` → 50 50
    		- `full-screen-api.warning.timeout` → 0
