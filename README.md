@@ -11,7 +11,7 @@ This covers all the steps I personally go though when performing a clean install
 - As much privacy as possible (see my Group Policy edits)
 - Prioritizing native software (to break as little things as possible) or FOSS
 
-Thanks to [Duttyend](https://github.com/duttyend?) for the tips and suggestions!
+Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 
 ### Installation
 - Download the official iso file from [Microsoft](https://www.microsoft.com/software-download/windows11)
