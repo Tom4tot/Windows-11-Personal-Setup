@@ -164,8 +164,8 @@ This covers all the steps I personally go though when performing a clean install
    		- `extensions.pocket.enabled` → false
    		- `extensions.screenshots.disabled` → true
    		- `reader.parse-on-load.enabled` → false
-     - `browser.cache.disk.enable` → false
-     	- `accessibility.force_disabled` → 1
+	- `browser.cache.disk.enable` → false
+       	- `accessibility.force_disabled` → 1
     	- `browser.tabs.firefox-view` → false
     	- `toolkit.telemetry.unified` → false
 - Change "model" name under PC's name: regedit → HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation → string: Model → data: *model*
