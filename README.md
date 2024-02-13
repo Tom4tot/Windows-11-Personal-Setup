@@ -22,7 +22,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
   	- Education edition is my favorite as it has all the features from Enterprise but is also included in the multi-edition iso available from Windows without an account, unlike the enterprise iso that is hard to get. You can fin a comparison of all versions [here](https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart): 
 - Reboot and install Windows. Make sure to delete all your partitions (except the data one, if you have one) and to choose the Education/Enterprise/Professional edition.
 
-### Applications that I use / install (FOSS / *proprietary*) (alphabetic order)
+### Applications that I use / install (FOSS / *proprietary*) (alphabetical order)
 #### Portable applications
 #### Portable applications
 - [Platform tools - ADB/Fastboot](https://developer.android.com/studio/releases/platform-tools) - mandatory to tinker with my Android phones
