@@ -119,10 +119,10 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- `setx /m PATH ""YourProgramPath";%PATH%"`
 	- e.g.: `setx /m PATH ""C:\ffmpeg\bin";%PATH%"`
 	- Notes:
- 		- "/m" = all users
-   		- "setx" instead of "set" = permanent change
-     		- adding "" at the beginning and end of path is useful if you have spaces in your path)
-     		- Programs I add to path: StreamRip, yt-dlp, ADB/Fastboot.
+		- "/m" = all users
+		- "setx" instead of "set" = permanent change
+		- adding "" at the beginning and end of path is useful if you have spaces in your path)
+		- Programs I add to path: StreamRip, yt-dlp, ADB/Fastboot.
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
 - services.msc: services to disable
