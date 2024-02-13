@@ -115,7 +115,10 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 
 ### Settings & tweaks - Others
 - [Uninstall all unnecessary preinstalled *provisioned* user apps](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/PowerShell%20Commands.md)
-- Add some essential CLI programs to PATH with CMD (administrator mode) so they are always available when opening CMD or PowerShell: `setx /m PATH ""YourProgramPath";%PATH%"`, e.g.: `setx /m PATH ""C:\ffmpeg\bin";%PATH%"` (Note: "/m" = all users; "setx" instead of "set" = permanent change; adding "" at the beginning and end of path is useful if you have spaces in your path). Programs I add to path: StreamRip, yt-dlp, ADB/Fastboot.
+- Add some essential CLI programs to PATH with CMD (administrator mode) so they are always available when opening CMD or PowerShell:
+	- `setx /m PATH ""YourProgramPath";%PATH%"`
+	- e.g.: `setx /m PATH ""C:\ffmpeg\bin";%PATH%"`
+	- Note: "/m" = all users; "setx" instead of "set" = permanent change; adding "" at the beginning and end of path is useful if you have spaces in your path). Programs I add to path: StreamRip, yt-dlp, ADB/Fastboot.
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
 - services.msc: services to disable
