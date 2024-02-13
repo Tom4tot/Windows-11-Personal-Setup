@@ -24,8 +24,12 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 
 ### Applications that I use / install (FOSS / *proprietary*) (alphabetic order)
 #### Portable applications
+#### Portable applications
 - [Platform tools - ADB/Fastboot](https://developer.android.com/studio/releases/platform-tools) - mandatory to tinker with my Android phones
 - [Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2) - Tool to analyse/edit audio files (last update that doesn't include telemetry)
+- [Calibre](https://calibre-ebook.com/) - Management of my Kindle library
+- [chrlauncher](https://github.com/henrypp/chrlauncher/) - Portable Chromium and updater - [macchrome](https://github.com/macchrome/winchrome) and [RobRich999](https://github.com/RobRich999/Chromium_Clang) are both up to date and reliable.
+- [Easy Audio Sync](https://github.com/complexlogic/EasyAudioSync) - Synchronization of my main music library with the one for my phone. It automatically mirrors my main folder and transcodes on-the-fly my .flac files to .opus ones. Works great and it's very fast.
 - [*Everything*](https://www.voidtools.com/) - Locate files and folders by name instantly
 - [*Foobar2000*](https://www.foobar2000.org/download) - My favorite music player by far
 - [HandBrake](https://handbrake.fr/) - Favorite video converter
@@ -38,18 +42,23 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [MPV](https://sourceforge.net/projects/mpv-player-windows/files/64bit-v3/) - My favorite video player
 - [Nicotine+](https://github.com/nicotine-plus/nicotine-plus/) - open source client four Soulseek.
 - [Notepad++](https://notepad-plus-plus.org/downloads/) - My favorite text editor
+- [OBS](https://obsproject.com) - Best screen recording / broadcasting software
 - [*paint.NET*](https://github.com/paintdotnet/release/) - great easy-to-use image editor
+- [PDFsam](https://pdfsam.org/en/download-pdfsam-basic/) - nice tool for basic PDF manipulations
 - [qBittorrent](https://www.qbittorrent.org/download.php) - Favorite torrent client
 - [ShareX](https://getsharex.com/downloads/) - Favorite screen capture tools, many other features
 - [simplewall](https://github.com/henrypp/simplewall/) - great firewall
 - [Spek](https://github.com/MikeWang000000/spek-X/) - Acoustic spectrum analyser (fork)
 - [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer) - My favorite PDF viewer
+- [Syncthing](https://syncthing.net/) - Wireless sync of my images, music, etc. in between my computer & Android Phone
 - [*TagScanner*](https://www.xdlab.ru/en/) - Another one of my favorite tag editor for music
 - [WinCDEmu](https://github.com/sysprogs/WinCDEmu) - CD/DVD/BD emulator
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Easily download video/audio files from YouTube (fork)
 #### Portable tools
 - [BleachBit](https://www.bleachbit.org/download/windows) - Disk space cleaner, privacy manager, and computer system optimizer
+- [Caesium Image Compressor](https://github.com/Lymphatus/caesium-image-compressor/) - image compression software, very impressive
 - [*HWiNFO*](https://www.hwinfo.com/download/) - System Information
+- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) - AFAIK, best image upscaler
 - [Driver Store Explorer [RAPR]](https://github.com/lostindark/DriverStoreExplorer) - Manage drivers
 #### Installed applications
 ##### Automated installation via a package manager
