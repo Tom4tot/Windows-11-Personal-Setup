@@ -136,6 +136,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
 - services.msc: services to disable
 	- Connected User Experiences and Telemetry
+ 	- [Other services that can be disabled safely](https://www.naut.ca/blog/2019/07/29/windows-10-ltsc-post-installation/)
 - Change default app for different file types
   - Video player: mp4, mov, avi, mkv, webm, flv, html5
   - Music player: mp3, aac, flac, ogg, opus
