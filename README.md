@@ -3,7 +3,7 @@
 
 ### Introduction and general information
 Made for: Windows 11 22H2 (23H2 works too)  
-Last update: 2024-02-22
+Last update: 2024-06-28 (Disabling Copilot has been added)
 
 This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
 - As much automation as possible (portable programs, quick import of settings)
