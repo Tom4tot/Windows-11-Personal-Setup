@@ -117,6 +117,8 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- You can also directly import my config that is attached to this repository
 	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
 
+- These entries are slightly outdated (I may have been modified/added some), but are still relevant but are kept for referencing purposes.
+#### [ALL GROUP POLICY CHANGES (screenshots)](
 #### [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md)
 #### [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
 #### [Microsoft Office advanced settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Microsoft%20Office.md)
