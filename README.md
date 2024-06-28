@@ -67,10 +67,11 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
         - [Installation](https://chocolatey.org/install) (PowerShell with admin rights)
             - `Set-ExecutionPolicy AllSigned`
             - `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
-            - Command to install all programs: `choco install 7zip eartrumpet firefox f.lux  jre8 nextcloud pdf24 powertoys teamviewer twinkle-tray -y`
+            - Command to install all programs: `choco install XX YY`
             - See installed programs: `choco list --localonly`
-    - Winget - see packages [here]([https://community.chocolatey.org/packages](https://winget.run/))
-    	- Command to install all programs: `winget install 7zip.7zip && winget install File-New-Project.EarTrumpet && winget install Mozilla.Firefox && winget install flux.flux && winget install Oracle.JavaRuntimeEnvironment && winget install Nextcloud.NextcloudDesktop&& winget install geeksoftwareGmbH.PDF24Creator && winget install Microsoft.PowerToys && winget install TeamViewer.TeamViewer && winget install xanderfrangos.twinkletray`
+    - Winget - see packages [here]((https://winget.run/))
+    	- Command to search packages: `winget search XXX` (save the package ID to install programs, it's more accurate and reliable)
+     	- Command to install all programs: `winget install 7zip.7zip && winget install File-New-Project.EarTrumpet && winget install Mozilla.Firefox && winget install flux.flux && winget install Oracle.JavaRuntimeEnvironment && winget install Nextcloud.NextcloudDesktop&& winget install geeksoftwareGmbH.PDF24Creator && winget install Microsoft.PowerToys && winget install RustDesk.RustDesk && winget install xanderfrangos.twinkletray`
 - [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
 - [Firefox](https://www.mozilla.org/fr/firefox/all/#product-desktop-release) - Main browser
@@ -86,7 +87,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [PDF24](https://tools.pdf24.org/fr/creator) - PDF tools
 - [PDFsam Basic](https://pdfsam.org/download-pdfsam-basic/) - PDF tools
 - [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
-- [*TeamViewer*](https://www.teamviewer.com) - When I need to support a relative with IT stuff
+- [RustDesk](https://github.com/rustdesk/rustdesk/releases/) - best open source TeamViewer alternative (which has become awful lately by the way)
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 ##### Only available on Microsoft Store
 - [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
