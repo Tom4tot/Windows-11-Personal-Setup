@@ -8,13 +8,15 @@
 
 ## Basic commands
 - List of installed apps: `Get-AppxProvisionedPackage -Online | Format-Table DisplayName, PackageName`
+- List of all system apps: `Get-AppxPackage -PackageTypeFilter Main | ? { $_.SignatureKind -eq "System" } | Sort Name | Format-Table Name, InstallLocation` or `Get-AppxPackage -AllUsers -PackageTypeFilter Bundle | Select-Object Name, PackageFullName`
 - Uninstall command: `Get-AppxPackage -AllUsers PACKAGENAME | Remove-AppxPackage -AllUsers`
     - e.g. `Get-AppxPackage -AllUsers Clipchamp.Clipchamp | Remove-AppxPackage -AllUsers`
 ## Personal user apps
-- W11 22H2 Pro/Education: 
+- W11 24H2 Pro/Education: 
     - Clipchamp.Clipchamp
     - Microsoft.549981C3F5F10 *(Cortana)*
     - Microsoft.BingNews
+    - Microsoft.BingSearch
     - Microsoft.BingWeather
     - Microsoft.GamingApp
     - Microsoft.GetHelp
@@ -39,12 +41,19 @@
     - Microsoft.ZuneMusic
     - Microsoft.ZuneVideo
     - MicrosoftCorporationII.QuickAssist
-    - MicrosoftTeams  
+    - MSTeams
+
+ ## System apps (that are safe to uninstall)
+ - [System apps](https://learn.microsoft.com/en-us/windows/application-management/system-apps-windows-client-os)
+    - Microsoft.Windows.Cortana (command: `Get-AppxPackage -AllUsers Microsoft.Windows.Cortana | Remove-AppxPackage`)
+    - Microsoft.Windows.DevHome (command: `Get-AppxPackage -AllUsers Microsoft.Windows.DevHome | Remove-AppxPackage`)
+    - Microsoft.Windows.DevHomeGitHubExtension (command: `Get-AppxPackage -AllUsers Microsoft.Windows.DevHomeGitHubExtension | Remove-AppxPackage`)
 
 **PowerShell Commmand to delete them all:**  
 Get-AppxPackage -AllUsers Clipchamp.Clipchamp | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.549981C3F5F10 | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.BingNews | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.BingSearch | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.BingWeather | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.GamingApp | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.GetHelp | Remove-AppxPackage -AllUsers  
@@ -71,7 +80,7 @@ Get-AppxPackage -AllUsers Microsoft.YourPhone  | Remove-AppxPackage -AllUsers
 Get-AppxPackage -AllUsers Microsoft.ZuneMusic | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.ZuneVideo | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MicrosoftCorporationII.QuickAssist  | Remove-AppxPackage -AllUsers  
-Get-AppxPackage -AllUsers MicrosoftTeams | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers MSTeams | Remove-AppxPackage -AllUsers  
 
 ## Official (seems slightly outdated)
 - [User apps](https://learn.microsoft.com/en-us/windows/application-management/provisioned-apps-windows-client-os) 
@@ -108,5 +117,3 @@ Get-AppxPackage -AllUsers MicrosoftTeams | Remove-AppxPackage -AllUsers
     - Microsoft.YourPhone
     - Microsoft.ZuneMusic
     - Microsoft.ZuneVideo
-- [System apps](https://learn.microsoft.com/en-us/windows/application-management/system-apps-windows-client-os)
-    - Microsoft.Windows.Cortana *(safe to uninstall from my experience)*
