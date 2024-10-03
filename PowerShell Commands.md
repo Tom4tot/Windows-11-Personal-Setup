@@ -7,7 +7,7 @@
 
 ## Basic commands
 - List of installed apps: `Get-AppxProvisionedPackage -Online | Format-Table DisplayName, PackageName`
-- List of all system apps: `Get-AppxPackage -PackageTypeFilter Main | ? { $_.SignatureKind -eq "System" } | Sort Name | Format-Table Name, InstallLocation` or `Get-AppxPackage -AllUsers -PackageTypeFilter Bundle | Select-Object Name, PackageFullName`
+- List of all system apps: `Get-AppxPackage -PackageTypeFilter Main | ? { $_.SignatureKind -eq "System" } | Sort Name | Format-Table Name, InstallLocation` or `Get-AppxPackage -AllUsers -PackageTypeFilter Bundle | Select-Object Name, PackageFullName` (the second one also shows some user apps as well as system components)
 - Uninstall command: `Get-AppxPackage -AllUsers PACKAGENAME | Remove-AppxPackage -AllUsers`
     - e.g. `Get-AppxPackage -AllUsers Clipchamp.Clipchamp | Remove-AppxPackage -AllUsers`
 ## Personal user apps
@@ -78,5 +78,6 @@ Get-AppxPackage -AllUsers MSTeams | Remove-AppxPackage -AllUsers
 ## System apps (that are safe to uninstall)
  - [System apps](https://learn.microsoft.com/en-us/windows/application-management/system-apps-windows-client-os)
     - Microsoft.Windows.Cortana (command: `Get-AppxPackage -AllUsers Microsoft.Windows.Cortana | Remove-AppxPackage`)
-    - Microsoft.Windows.DevHome (command: `Get-AppxPackage -AllUsers Microsoft.Windows.DevHome | Remove-AppxPackage`)
+    - Microsoft.Windows.DevHome (command: `Get-AppxPackage -AllUsers Microsoft.Windows.DevHome | Remove-AppxPackage`) ; it's still listed so I needed to execute this command: `Get-AppxPackage -AllUsers -PackageTypeFilter Bundle -Name "*Windows.DevHome*" | Remove-AppxPackage -AllUsers​`
     - Microsoft.Windows.DevHomeGitHubExtension (command: `Get-AppxPackage -AllUsers Microsoft.Windows.DevHomeGitHubExtension | Remove-AppxPackage`)
+    - Microsoft.XboxGamingOverlay (command: `Get-AppxPackage -AllUsers Microsoft.XboxGamingOverlay | Remove-AppxPackage`)
