@@ -9,6 +9,7 @@
 - List of installed apps: `Get-AppxProvisionedPackage -Online | Format-Table DisplayName, PackageName`
 - List of all system apps: `Get-AppxPackage -PackageTypeFilter Main | ? { $_.SignatureKind -eq "System" } | Sort Name | Format-Table Name, InstallLocation` or `Get-AppxPackage -AllUsers -PackageTypeFilter Bundle | Select-Object Name, PackageFullName` (the second one also shows some user apps as well as system components)
 - List of all apps: `Get-AppxPackage -AllUsers | Sort Name | Format-Table Name, InstallLocation`
+- Search for an app: `Get-AppxPackage | select-string XXX`
 - Uninstall command: `Get-AppxPackage -AllUsers PACKAGENAME | Remove-AppxPackage -AllUsers`
     - e.g. `Get-AppxPackage -AllUsers Clipchamp.Clipchamp | Remove-AppxPackage -AllUsers`
 ## Personal user apps
