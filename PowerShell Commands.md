@@ -2,6 +2,7 @@
 - All apps listed are "provisioned apps", i.e. preinstalled user apps. Unlike "system apps", they can be uninstalled without any risk. They can also be reinstalled from Windows Store, since they are UWP apps.
   - [About provisioned apps](https://learn.microsoft.com/en-us/windows/application-management/provisioned-apps-windows-client-os)
   - [About system apps](https://learn.microsoft.com/en-us/windows/application-management/system-apps-windows-client-os)
+  - [Overview of apps on Windows client devices](https://learn.microsoft.com/en-us/windows/application-management/overview-windows-apps)
  - The purpose of these commands is to make the processs way faster than manually uninstalling apps from the start menu or from the "add or remove programs" setting page. It will also be applied to all users as long as you keep the two `-AllUsers` argument.
  - You can simply copy and paste all the lines mentioned below in one go, it will work perfectly. Of course, you're encouraged to edit the list to your liking.
 
@@ -43,12 +44,6 @@
     - MicrosoftCorporationII.QuickAssist
     - MSTeams
 
- ## System apps (that are safe to uninstall)
- - [System apps](https://learn.microsoft.com/en-us/windows/application-management/system-apps-windows-client-os)
-    - Microsoft.Windows.Cortana (command: `Get-AppxPackage -AllUsers Microsoft.Windows.Cortana | Remove-AppxPackage`)
-    - Microsoft.Windows.DevHome (command: `Get-AppxPackage -AllUsers Microsoft.Windows.DevHome | Remove-AppxPackage`)
-    - Microsoft.Windows.DevHomeGitHubExtension (command: `Get-AppxPackage -AllUsers Microsoft.Windows.DevHomeGitHubExtension | Remove-AppxPackage`)
-
 **PowerShell Commmand to delete them all:**  
 Get-AppxPackage -AllUsers Clipchamp.Clipchamp | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.549981C3F5F10 | Remove-AppxPackage -AllUsers  
@@ -82,38 +77,8 @@ Get-AppxPackage -AllUsers Microsoft.ZuneVideo | Remove-AppxPackage -AllUsers
 Get-AppxPackage -AllUsers MicrosoftCorporationII.QuickAssist  | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MSTeams | Remove-AppxPackage -AllUsers  
 
-## Official (seems slightly outdated)
-- [User apps](https://learn.microsoft.com/en-us/windows/application-management/provisioned-apps-windows-client-os) 
-    - Microsoft.3DBuilder
-    - Microsoft.BingWeather
-    - Microsoft.GetHelp
-    - Microsoft.Getstarted
-    - Microsoft.Messaging
-    - Microsoft.Microsoft3DViewer
-    - Microsoft.MicrosoftOfficeHub
-    - Microsoft.MicrosoftSolitaireCollection
-    - Microsoft.MicrosoftStickyNotes
-    - Microsoft.MixedReality.Portal
-    - Microsoft.MSPaint
-    - Microsoft.Office.OneNote
-    - Microsoft.OneConnect
-    - Microsoft.People
-    - Microsoft.Print3D
-    - Microsoft.ScreenSketch
-    - Microsoft.SkypeApp
-    - Microsoft.Wallet
-    - Microsoft.Windows.Photos
-    - Microsoft.WindowsAlarms
-    - microsoft.windowscommunicationsapps
-    - Microsoft.WindowsFeedbackHub
-    - Microsoft.WindowsMaps
-    - Microsoft.WindowsSoundRecorder
-    - Microsoft.Xbox.TCUI
-    - Microsoft.XboxApp
-    - Microsoft.XboxGameOverlay
-    - Microsoft.XboxGamingOverlay
-    - Microsoft.XboxIdentityProvider
-    - Microsoft.XboxSpeechToTextOverlay
-    - Microsoft.YourPhone
-    - Microsoft.ZuneMusic
-    - Microsoft.ZuneVideo
+## System apps (that are safe to uninstall)
+ - [System apps](https://learn.microsoft.com/en-us/windows/application-management/system-apps-windows-client-os)
+    - Microsoft.Windows.Cortana (command: `Get-AppxPackage -AllUsers Microsoft.Windows.Cortana | Remove-AppxPackage`)
+    - Microsoft.Windows.DevHome (command: `Get-AppxPackage -AllUsers Microsoft.Windows.DevHome | Remove-AppxPackage`)
+    - Microsoft.Windows.DevHomeGitHubExtension (command: `Get-AppxPackage -AllUsers Microsoft.Windows.DevHomeGitHubExtension | Remove-AppxPackage`)
