@@ -2,7 +2,7 @@
 ## Installation process | Essential programs | Privacy tweaks with GPEDIT | PowerShell commands to remove Provisioned apps | General tweaks
 
 ### Introduction and general information
-Made for: Windows 11 22H2 | Updated for W11 24H2
+Made for: Windows 11 22H2 | Updated for W11 24H2  
 Last update: 2024-10-03 (Disabling Copilot has been added; some new/extra user/system apps have also now removed with PowerShell)
 
 This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
