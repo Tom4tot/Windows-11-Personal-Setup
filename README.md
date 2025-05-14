@@ -69,7 +69,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
             - `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
             - Command to install all programs: `choco install XX YY`
             - See installed programs: `choco list --localonly`
-    - Winget - see packages [here](https://winget.run/)
+    - Winget - see packages [here](https://winstall.app/)
     	- Command to search packages: `winget search XXX` (save the package ID to install programs, it's more accurate and reliable)
      	- Command to install all programs: winget upgrade --all --silent `winget install 7zip.7zip && winget install File-New-Project.EarTrumpet && winget install Mozilla.Firefox && winget install flux.flux && winget install Oracle.JavaRuntimeEnvironment && winget install Nextcloud.NextcloudDesktop&& winget install geeksoftwareGmbH.PDF24Creator && winget install Microsoft.PowerToys && winget install RustDesk.RustDesk && winget install xanderfrangos.twinkletray`
       - Command to update all programs: (you can also download the shortcut I created, "Winget Update.ink")
