@@ -24,7 +24,6 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 
 ### Applications that I use / install (FOSS / *proprietary*) (alphabetical order)
 #### Portable applications
-#### Portable applications
 - [Platform tools - ADB/Fastboot](https://developer.android.com/studio/releases/platform-tools) - mandatory to tinker with my Android phones
 - [Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2) - Tool to analyse/edit audio files (last update that doesn't include telemetry)
 - [Calibre](https://calibre-ebook.com/) - Management of my Kindle library
@@ -62,14 +61,8 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [Driver Store Explorer [RAPR]](https://github.com/lostindark/DriverStoreExplorer) - Manage drivers
 #### Installed applications
 ##### Automated installation via a package manager
-- Package managers
-    - Chocolatey - see packages [here](https://community.chocolatey.org/packages)
-        - [Installation](https://chocolatey.org/install) (PowerShell with admin rights)
-            - `Set-ExecutionPolicy AllSigned`
-            - `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
-            - Command to install all programs: `choco install XX YY`
-            - See installed programs: `choco list --localonly`
-    - Winget - see packages [here](https://winstall.app/)
+- Package managers (Winget)
+    	- see packages [here](https://winstall.app/)
     	- Command to search packages: `winget search XXX` (save the package ID to install programs, it's more accurate and reliable)
      	- Command to install all programs: winget upgrade --all --silent `winget install 7zip.7zip && winget install File-New-Project.EarTrumpet && winget install Mozilla.Firefox && winget install flux.flux && winget install Oracle.JavaRuntimeEnvironment && winget install Nextcloud.NextcloudDesktop&& winget install geeksoftwareGmbH.PDF24Creator && winget install Microsoft.PowerToys && winget install RustDesk.RustDesk && winget install xanderfrangos.twinkletray`
       - Command to update all programs: (you can also download the shortcut I created, "Winget Update.ink")
@@ -85,18 +78,15 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [*f.lux*](https://justgetflux.com/) - My favorite nightlight software on Windows
 - [Java](https://www.java.com/en/) - Needed for some programs
 - [NextCloud](https://nextcloud.com/install/) - Cloud Client
-- [PDF24](https://tools.pdf24.org/fr/creator) - PDF tools
+- [*PDF24*](https://tools.pdf24.org/fr/creator) - PDF tools
 - [PDFsam Basic](https://pdfsam.org/download-pdfsam-basic/) - PDF tools
 - [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
 - [RustDesk](https://github.com/rustdesk/rustdesk/releases/) - best open source TeamViewer alternative (which has become awful lately by the way)
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
-##### Only available on Microsoft Store
-- [Battery Percentage Icon](https://github.com/soleon/Percentage) - See your battery percentage in the system tray (Windows Store)
 ##### Not available on Chocolatey or Winget
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows (available on Winget)
 - [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
-- [*Microsoft Office*](https://www.heidoc.net/joomla/technology-science/microsoft/16-office-2021-direct-download-links) - Office suite (direct link - Mass Gravel is a very good website to get original download links too)
-- [Sublte](https://github.com/tvdburgt/subtle) - Subtitles downloader
+- [*Microsoft Office*](https://massgrave.dev/office_c2r_links) - Office suite (direct link from Microsoft servers)
 
 ### Settings & tweaks - Group Policy Editor
 #### Context
