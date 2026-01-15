@@ -1,4 +1,9 @@
-## UI/UX-related group policy settings
+- Abbreviations:  
+	- (D) = disabled  
+	- (E) = enabled  
+	- (E+C) = enabled, configuration is necessary
+ 
+ ## UI/UX-related group policy settings
 - Disable chat: `Computer Configuration > Administrative Templates > Windows Components > Chat` → Configures the Chat icon on the taskbar (E+C)
 - Disable Widgets: `Computer Configuration > Administrative Templates > Windows Components > Widgets` → Allow widgets (D)
 - Disable Connected Modern Standby: `Computer Configuration > Administrative Templates > System > Power Management > Sleep Settings` → Allow network connectivity during connected-standby (on battery) (D)
