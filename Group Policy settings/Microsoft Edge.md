@@ -9,7 +9,7 @@
 ### How to get/import the custom group policy configuration for Microsft Edge:
 - [Official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge))
 - How to import the policies:
-	- Download [templates](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ)
+	- Download [templates](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ): "Download Windows 64-bit Policy"  
 	- Extract the .cab
 	- Extract the .zip
 	- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
