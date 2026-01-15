@@ -71,7 +71,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [Firefox](https://www.mozilla.org/fr/firefox/all/#product-desktop-release) - Main browser
   - Add-ons: 
     - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-    - [Bypass Paywalls Clean](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/)
+    - [Bypass Paywalls Clean](https://gitflic.ru/project/magnolia1234/bypass-paywalls-firefox-clean)
     - [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
     - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
     - A working twitch adblocker, see [TwitchAdSolutions](https://github.com/pixeltris/TwitchAdSolutions)
@@ -83,7 +83,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
 - [RustDesk](https://github.com/rustdesk/rustdesk/releases/) - best open source TeamViewer alternative (which has become awful lately by the way)
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
-##### Not available on Chocolatey or Winget
+##### Not available on Winget
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows (available on Winget)
 - [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
 - [*Microsoft Office*](https://massgrave.dev/office_c2r_links) - Office suite (direct link from Microsoft servers)
@@ -105,9 +105,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- You can also directly import my config that is attached to this repository
 	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
 
-- List of Group Policy changes (screenshots):
-#### [GPE - Computer Configuration - Administrative Templates](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20Computer%20Configuration%20-%20Administrative%20Templates.png)
-#### [GPE - User Configuration - Administrative Templates](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20User%20Configuration%20-%20Administrative%20Templates.png)
+#### List of Group Policy changes (screenshots):[GPE - Computer Configuration - Administrative Templates](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/1-Computer%20configuration.png) - [GPE - User Configuration - Administrative Templates]([https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20User%20Configuration%20-%20Administrative%20Templates.png](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/2-User%20settings.png))
 
 ##### How to get/import the custom group policy configuration for Microsft Office:
 - [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
@@ -138,7 +136,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 		- "/m" = all users
 		- "setx" instead of "set" = permanent change
 		- adding "" at the beginning and end of path is useful if you have spaces in your path)
-		- Programs I add to path: StreamRip, yt-dlp, ADB/Fastboot.
+		- Programs I add to path: StreamRip, yt-dlp, ADB/Fastboot, FFmpeg.
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
 - services.msc: services to disable
@@ -160,7 +158,6 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
   - Windows Media Player Legacy
   - Windows PowerShell ISE
   - WordPad
-- Delete OneNote printer through `printmanagement.msc`
 - Most important Windows Settings
   - System → Power
   - System → Multitasking
@@ -174,8 +171,6 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
  - Performance tips:
    - Settings → Accessiblity → Disable transparency effects
    - Windows Security → Device Security → Disable core isolation (note: weakens security)
-   - Windows Security → Searching Windows → Find my files: enhanced
-   - Device Manager → System Devices → High precision event timer (HPET) → disable device (note: improve performance with most hardware - some people say it's snake oil)
   - Firefox:
   	- make sure in about:support that compositing is rendered by `WebRender` (note: and not WebRender (software))
   	- about:config tweaks:
