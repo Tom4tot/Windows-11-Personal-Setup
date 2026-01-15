@@ -101,10 +101,6 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 ### Settings & tweaks - Group Policy Editor
 #### Context
 - Sources: [1](https://4sysops.com/archives/windows-10-privacy-all-group-policy-settings/), [2](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryEnhancedLockdown.htm), [3](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryBasicLockdown.htm)  
-- Abbreviations:  
-	- (D) = disabled  
-	- (E) = enabled  
-	- (E+C) = enabled, configuration is necessary
 - Benefits of using GPE instead of third-party programs or regedit
 	- Easier to setup after a clean install (no need to tick all boxes one by one).
 	- All GP edits are up to date, so there's no risk to mess with regedit by adding unnecessary keys.
@@ -122,11 +118,26 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - Screenshots of Group Policy changes:
 #### [GPE - Computer Configuration - Administrative Templates](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20Computer%20Configuration%20-%20Administrative%20Templates.png)
 #### [GPE - User Configuration - Administrative Templates](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20User%20Configuration%20-%20Administrative%20Templates.png)
-#### [Microsoft Office advanced settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Microsoft%20Office.md)
-#### [Microsoft Edge basic and advanced settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Microsoft%20Edge.md)
+
+##### How to get/import the custom group policy configuration for Microsft Office:
+- [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
+- How to import the policies:
+		- Download [templates](https://www.microsoft.com/en-us/download/details.aspx?id=49030)  
+		- Execute the .exe and import the policies you want, e.g.  
+		- Import `word16.admx` to `C:\Windows\PolicyDefinitions`  
+		- Import `word16.adml` to `C:\Windows\PolicyDefinitions\en-US`
+
+##### How to get/import the custom group policy configuration for Microsft Edge:
+- [Official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge))
+- How to import the policies:
+	- Download [templates](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ): "Download Windows 64-bit Policy"  
+	- Extract the .cab
+	- Extract the .zip
+	- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
+	- Import `MicrosoftEdgePolicyTemplates\windows\admx\en-US\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
+
 - List of entries written down (these are slightly outdated as I may have been modified/added some, but are still relevant and are kept for referencing purposes).
-#### (slightly outdated, check screenshots) [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md)
-#### (slightly outdated, check screenshots) [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
+#### (slightly outdated, check screenshots) [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md) - #### [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
 
 
 ### Settings & tweaks - Others
