@@ -17,7 +17,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - Download the official iso file from [Microsoft](https://www.microsoft.com/software-download/windows11)
 - Create bootable USB with [Rufus](https://rufus.ie/en/), leave everything as default (GPT, UEFI, NTFS), and customize the *Windows User Experience*: tick everything
   - Benefits: faster than Microsoft's tool, makes the use of a local account easier, skips privacy questions (all will be off)
-- Naviagate to /sources in and add the ei.cfg attached to this repo.
+- Naviagate to /sources in and add the [ei.cfg file](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Config%20files/ei.cfg) attached to this repo.
   - Benefits: it will bypass your current Windows key and allow you to choose Windows Education/Enterprise instead of Windows Home.
   	- Education edition is my favorite as it has all the features from Enterprise but is also included in the multi-edition iso available from Windows without an account, unlike the enterprise iso that is hard to get. You can fin a comparison of all versions [here](https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart): 
 - Reboot and install Windows. Make sure to delete all your partitions (except the data one, if you have one) and to choose the Education/Enterprise/Professional edition.
