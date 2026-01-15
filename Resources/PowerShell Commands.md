@@ -16,7 +16,7 @@ Calculator; Camera; Feedback Hub; Microsoft 365 Copilot; Microsoft Clipchamp; Mi
 - Uninstall command: `Get-AppxPackage -AllUsers PACKAGENAME | Remove-AppxPackage -AllUsers`
     - e.g. `Get-AppxPackage -AllUsers Clipchamp.Clipchamp | Remove-AppxPackage -AllUsers`
 ## Personal user apps
-- W11 24H2 Pro/Education: 
+- W11 25H2 Pro/Education: 
     - Clipchamp.Clipchamp
     - Microsoft.549981C3F5F10 *(Cortana)*
     - Microsoft.BingNews
@@ -45,6 +45,8 @@ Calculator; Camera; Feedback Hub; Microsoft 365 Copilot; Microsoft Clipchamp; Mi
     - Microsoft.ZuneMusic
     - Microsoft.ZuneVideo
     - MicrosoftCorporationII.QuickAssist
+    - MicrosoftWindows.Client.WebExperience
+    - MicrosoftWindows.CrossDevice
     - MSTeams
 
 **PowerShell Commmand to delete them all:**  
@@ -78,6 +80,8 @@ Get-AppxPackage -AllUsers Microsoft.YourPhone  | Remove-AppxPackage -AllUsers
 Get-AppxPackage -AllUsers Microsoft.ZuneMusic | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.ZuneVideo | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MicrosoftCorporationII.QuickAssist  | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers MicrosoftWindows.Client.WebExperience | Remove-AppxPackage -AllUsers
+Get-AppxPackage -AllUsers MicrosoftWindows.CrossDevice | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MSTeams | Remove-AppxPackage -AllUsers  
 
 ## System apps (that are safe to uninstall)
