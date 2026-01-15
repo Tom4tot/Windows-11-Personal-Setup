@@ -115,7 +115,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- You can also directly import my config that is attached to this repository
 	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
 
-- Screenshots of Group Policy changes:
+- List of Group Policy changes (screenshots):
 #### [GPE - Computer Configuration - Administrative Templates](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20Computer%20Configuration%20-%20Administrative%20Templates.png)
 #### [GPE - User Configuration - Administrative Templates](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20User%20Configuration%20-%20Administrative%20Templates.png)
 
@@ -136,8 +136,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
 	- Import `MicrosoftEdgePolicyTemplates\windows\admx\en-US\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
 
-- List of entries written down (these are slightly outdated as I may have been modified/added some, but are still relevant and are kept for referencing purposes).
-#### (slightly outdated, check screenshots) [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md) - #### [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
+- List of entries written down (these are slightly outdated as I may have been modified/added some, but are still relevant and are kept for referencing purposes): [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md) - [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
 
 
 ### Settings & tweaks - Others
