@@ -1,7 +1,7 @@
 # Windows 11 Personal Setup
 ## Installation process | Essential programs | Privacy tweaks with GPEDIT | PowerShell commands to remove Provisioned apps | General tweaks
 
-### Introduction and general information
+### 1-Introduction and general information
 Made for: Windows 11 25H2  
 Last update: 2026-05-15 (Group policies updated, I have modified added policies in W11 24H2 / 25H2; minor QoL updates)
 
@@ -13,7 +13,7 @@ This covers all the steps I personally go though when performing a clean install
 
 Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 
-### Installation
+### 2-Installation
 - Download the official iso file from [Microsoft](https://www.microsoft.com/software-download/windows11)
 - Create bootable USB with [Rufus](https://rufus.ie/en/), leave everything as default (GPT, UEFI, NTFS), and customize the *Windows User Experience*: tick everything
   - Benefits: faster than Microsoft's tool, makes the use of a local account easier, skips privacy questions (all will be off)
@@ -22,9 +22,9 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
   	- Education edition is my favorite as it has all the features from Enterprise but is also included in the multi-edition iso available from Windows without an account, unlike the enterprise iso that is hard to get. You can fin a comparison of all versions [here](https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart): 
 - Reboot and install Windows. Make sure to delete all your partitions (except the data one, if you have one) and to choose the Education/Enterprise/Professional edition.
 
-### Applications that I use / install (FOSS / *proprietary*) (alphabetical order)
+### 3-Applications that I use / install (FOSS / *proprietary*) (alphabetical order)
 #### Portable applications
-- [Platform tools - ADB/Fastboot](https://developer.android.com/studio/releases/platform-tools) - mandatory to tinker with my Android phones
+- [ADB/Fastboot - Platform tools](https://developer.android.com/studio/releases/platform-tools) - mandatory to tinker with my Android phones
 - [Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2) - Tool to analyse/edit audio files (last update that doesn't include telemetry)
 - [Calibre](https://calibre-ebook.com/) - Management of my Kindle library
 - [chrlauncher](https://github.com/henrypp/chrlauncher/) - Portable Chromium and updater - [macchrome](https://github.com/macchrome/winchrome) and [RobRich999](https://github.com/RobRich999/Chromium_Clang) are both up to date and reliable.
@@ -57,7 +57,6 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [BleachBit](https://www.bleachbit.org/download/windows) - Disk space cleaner, privacy manager, and computer system optimizer
 - [Caesium Image Compressor](https://github.com/Lymphatus/caesium-image-compressor/) - image compression software, very impressive
 - [*HWiNFO*](https://www.hwinfo.com/download/) - System Information
-- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) - AFAIK, best image upscaler
 - [Driver Store Explorer [RAPR]](https://github.com/lostindark/DriverStoreExplorer) - Manage drivers
 #### Installed applications
 ##### Automated installation via a package manager
@@ -88,7 +87,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
 - [*Microsoft Office*](https://massgrave.dev/office_c2r_links) - Office suite (direct link from Microsoft servers)
 
-### Settings & tweaks - Group Policy Editor
+### 4-Settings & tweaks - Group Policy Editor
 #### Context
 - Sources: [1](https://4sysops.com/archives/windows-10-privacy-all-group-policy-settings/), [2](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryEnhancedLockdown.htm), [3](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryBasicLockdown.htm)  
 - Benefits of using GPE instead of third-party programs or regedit
@@ -105,7 +104,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- You can also directly import my config that is attached to this repository
 	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
 
-#### List of Group Policy changes (screenshots):[GPE - Computer Configuration - Administrative Templates](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/1-Computer%20configuration.png) - [GPE - User Configuration - Administrative Templates]([https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20User%20Configuration%20-%20Administrative%20Templates.png](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/2-User%20settings.png))
+#### List of Group Policy changes (screenshots): [Computer Configuration](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/1-Computer%20configuration.png) - [User Configuration]([https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/GPE%20-%20User%20Configuration%20-%20Administrative%20Templates.png](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/2-User%20settings.png))
 
 ##### How to get/import the custom group policy configuration for Microsft Office:
 - [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
@@ -127,7 +126,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - List of entries written down (these are slightly outdated as I may have been modified/added some, but are still relevant and are kept for referencing purposes): [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md) - [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
 
 
-### Settings & tweaks - Others
+### 5-Settings & tweaks - Others
 - [Uninstall all unnecessary preinstalled *provisioned* user apps](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Resources/PowerShell%20Commands.md)
 - Add some essential CLI programs to PATH with CMD (administrator mode) so they are always available when opening CMD or PowerShell:
 	- `setx /m PATH ""YourProgramPath";%PATH%"`
