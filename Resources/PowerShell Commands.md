@@ -80,7 +80,7 @@ Get-AppxPackage -AllUsers Microsoft.YourPhone  | Remove-AppxPackage -AllUsers
 Get-AppxPackage -AllUsers Microsoft.ZuneMusic | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers Microsoft.ZuneVideo | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MicrosoftCorporationII.QuickAssist  | Remove-AppxPackage -AllUsers  
-Get-AppxPackage -AllUsers MicrosoftWindows.Client.WebExperience | Remove-AppxPackage -AllUsers
+Get-AppxPackage -AllUsers MicrosoftWindows.Client.WebExperience | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MicrosoftWindows.CrossDevice | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MSTeams | Remove-AppxPackage -AllUsers  
 
