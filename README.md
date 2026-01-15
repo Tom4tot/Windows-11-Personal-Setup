@@ -194,4 +194,5 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
        	- `accessibility.force_disabled` → 1
     	- `browser.tabs.firefox-view` → false
     	- `toolkit.telemetry.unified` → false
-- Change "model" name under PC's name: regedit → HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation → string: Model → data: *model*
+     	- `browser.ml.enable` → false (turns off AI, a kill switch should be available with Firefox 148)
+- Change "model" name under PC's name: regedit → `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation` → string: Model → data: *model*
