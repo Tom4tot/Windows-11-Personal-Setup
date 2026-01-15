@@ -103,6 +103,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- Paste these files to your new installation in the same folder
 	- You can also directly import my config that is attached to this repository
 	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
+ - Alternatively, you can also use the [LGPO utility](https://www.microsoft.com/en-us/download/details.aspx?id=55319) to backup restore local group policies.
 
 #### List of Group Policy changes (screenshots): [Computer Configuration](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/1-Computer%20configuration.png) - [User Configuration](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/2-User%20settings.png)
 
