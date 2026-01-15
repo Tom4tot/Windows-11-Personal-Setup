@@ -1,3 +1,8 @@
+- Abbreviations:  
+	- (D) = disabled  
+	- (E) = enabled  
+	- (E+C) = enabled, configuration is necessary
+
 ## Privacy-related group policy settings  
 - `Computer Configuration > Administrative Templates > Control Panel > Regional and Language Options > Handwriting personalization` → Turn off automatic learning (E)
 - `Computer Configuration > Administrative Templates > System > Internet Communication Management > Internet Communication settings`
