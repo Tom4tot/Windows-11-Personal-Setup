@@ -1,6 +1,6 @@
 ## Introduction
-- A lot of user apps can now be disabled through the following group policy: `Remove Default Microsoft Store packages from the system` (through `Computer Configuration\Windows Components\App Package Deployment`): 
-    Calculator; Camera; Feedback Hub; Microsoft 365 Copilot; Microsoft Clipchamp; Microsoft Copilot (consumer version); Microsoft News; Microsoft Photos; Microsoft Solitaire Collection; Microsoft Sticky Notes; Microsoft Teams; Microsoft To Do; MSN Weather; Notepad; Outlook for Windows; Paint; Quick Assist; Snipping Tool; Sound Recorder; Windows Media Player; Windows Terminal; Xbox Gaming App; Xbox Identity Provider; Xbox Speech to Text Overlay; Xbox TCUI)
+- A lot of user apps can now be disabled through the following group policy: `Remove Default Microsoft Store packages from the system` (through `Computer Configuration\Windows Components\App Package Deployment`):  
+Calculator; Camera; Feedback Hub; Microsoft 365 Copilot; Microsoft Clipchamp; Microsoft Copilot (consumer version); Microsoft News; Microsoft Photos; Microsoft Solitaire Collection; Microsoft Sticky Notes; Microsoft Teams; Microsoft To Do; MSN Weather; Notepad; Outlook for Windows; Paint; Quick Assist; Snipping Tool; Sound Recorder; Windows Media Player; Windows Terminal; Xbox Gaming App; Xbox Identity Provider; Xbox Speech to Text Overlay; Xbox TCUI)
 
 - All apps listed are "provisioned apps", i.e. preinstalled user apps (except when I speficially mention otherwise). Unlike "system apps", they can be uninstalled without any risk. They can also be reinstalled from Windows Store, since they are UWP apps.
   - [Overview of apps on Windows client devices](https://learn.microsoft.com/en-us/windows/application-management/overview-windows-apps)
