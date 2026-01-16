@@ -15,7 +15,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 
 ### 2-Installation
 - Download the official iso file from [Microsoft](https://www.microsoft.com/software-download/windows11)
-- Create bootable USB with [Rufus](https://rufus.ie/en/), leave everything as default (GPT, UEFI, NTFS), and customize the *Windows User Experience*: tick everything
+- Create bootable USB with [Rufus](https://rufus.ie/en/), leave everything as default (GPT, UEFI, NTFS), and customize the *Windows User Experience* after clicking on `start`. I recommend to tick every box.
   - Benefits: faster than Microsoft's tool, makes the use of a local account easier, skips privacy questions (all will be off)
 - Naviagate to /sources in and add the [ei.cfg file](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Resources/ei.cfg) attached to this repo, so you can bypass your current Windows key and choose the Windows edition you want.
 	- In my opinion, Education > Enterprise > Pro > Home. You can fin a comparison of all versions [here](https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart). Education edition is my favorite as it has all the features from Enterprise but it is available in the multi-edition iso that you can freely download, unlike the enterprise iso that is hard to get. Education and Enterprise editions have a few extra features compared to the Pro edition. The main benefit according to me is that you can completely disable diagnostic data, which is not possible with the Pro edition. Avoid the home edition because it doesn't include the Local Group Policy Editor and it has the least features.
