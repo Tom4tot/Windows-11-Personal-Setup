@@ -2,14 +2,15 @@
 ## Installation process | Essential programs | Privacy tweaks with GPEDIT | PowerShell commands to remove Provisioned apps | General tweaks
 
 ### 1-Introduction and general information
-Made for: Windows 11 25H2  
-Last update: 2026-05-15 (Group policies updated, I have modified added policies in W11 24H2 / 25H2; minor QoL updates; repository clean-up)
+Made for: **Windows 11 25H2**  
+Last update: **2026-01-19**  
+Recent changes: Group policies updated, I have modified added policies in W11 24H2 / 25H2; minor QoL updates; repository clean-up
 
 This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
 - As much automation as possible (portable programs, quick import of settings)
 - A clean UI/UX (I disable/uninstall most of the bloat that comes with Windows)
 - As much privacy as possible (see my Group Policy edits)
-- Prioritizing native software (to break as little things as possible) or FOSS
+- Prioritizing native features (mostly grou policies, but also PowerShell) when it comes to customizing Windows, and free and open-source software (FOSS) for features/programs.
 
 Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 
