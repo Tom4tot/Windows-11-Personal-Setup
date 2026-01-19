@@ -10,7 +10,7 @@ This covers all the steps I personally go though when performing a clean install
 - As much automation as possible (portable programs, quick import of settings)
 - A clean UI/UX (I disable/uninstall most of the bloat that comes with Windows)
 - As much privacy as possible (see my Group Policy edits)
-- Prioritizing native features (mostly grou policies, but also PowerShell) when it comes to customizing Windows, and free and open-source software (FOSS) for features/programs.
+- Prioritizing native features (mostly group policies, but also PowerShell) when it comes to customizing Windows, and free and open-source software (FOSS) for features/programs.
 
 Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 
