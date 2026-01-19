@@ -3,7 +3,7 @@
 
 ### 1-Introduction and general information
 Made for: **Windows 11 25H2**  
-Last update: **2026-01-19**  
+Last update: **2026-01-20**  
 Recent changes: Group policies updated, I have modified added policies in W11 24H2 / 25H2; minor QoL updates; repository clean-up
 
 This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
@@ -107,7 +107,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - Backup: copy all files/folders from `C:\Windows\System32\GroupPolicy`
 - Restore/import: 
 	- Paste these files to your new installation in the same folder
-	- You can also directly import my config that is attached to this repository
+	- You can also directly import my config that is attached to this repository (WARNING: all my settings are perfectly safe except the ones related to security: I personally disable real-time protection from Windows Security but I can't advise you to do the same, specifically this policy: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus > Real-time protection` → Turn off real-time protection.)
 	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
  - Alternatively, you can also use the [LGPO utility](https://www.microsoft.com/en-us/download/details.aspx?id=55319) to backup and restore local group policies.
 
