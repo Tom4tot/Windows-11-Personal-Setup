@@ -181,8 +181,6 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
    		- `browser.tabs.loadBookmarksInBackground` → true
    		- `browser.bookmarks.openInTabClosesMenu` → false
    		- `dom.ipc.processPriorityManager.backgroundUsesEcoQoS` → false
-   		- `full-screen-api.transition-duration.leave` → 50 50
-   		- `full-screen-api.transition-duration.enter` → 50 50
    		- `full-screen-api.warning.timeout` → 0
    		- `browser.compactmode.show` → true
    		- `reader.parse-on-load.enabled` → false
