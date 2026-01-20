@@ -170,7 +170,6 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
   - Bluetooth & devices → Touchpad
   - Network & interent → Wi-Fi / Ethernet → Hardware properties → Edit DNS (e.g. `1.1.1.1` & `1.0.0.1` encrypted)
   - Turn on BitLocker
-  - Privacy & security → open Windows Security → disable Tamper Protection
   - Language & Region → Regional format: English (World) *(allows to use DD/MM/YYYY format and programs will be installed in English instead of your local language)*
  - Performance tips:
    - Settings → Accessiblity → Disable transparency effects
