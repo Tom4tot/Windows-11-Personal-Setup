@@ -110,6 +110,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- You can also directly import my config that is attached to this repository (WARNING: all my settings are perfectly safe except that I personally disable real-time protection from Windows Security but I can't advise you to do the same: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus > Real-time protection` → Turn off real-time protection.)
 	- If you want to update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
  - Alternatively, you can also use the [LGPO utility](https://www.microsoft.com/en-us/download/details.aspx?id=55319) to backup and restore local group policies.
+ - To keep track of new group policies, check this [spreadsheet (25H2)](https://www.microsoft.com/en-us/download/details.aspx?id=108395) and sort the first column.
 
 ##### How to get/import the custom group policy configuration for Microsft Office:
 - [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
