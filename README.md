@@ -19,7 +19,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - Create bootable USB with [Rufus](https://rufus.ie/en/), leave everything as default (GPT, UEFI, NTFS), and customize the *Windows User Experience* after clicking on `start`. I recommend to tick every box.
   - Benefits: faster than Microsoft's tool, makes the use of a local account easier, skips privacy questions (all will be off)
 - Naviagate to /sources in and add the [ei.cfg file](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Resources/ei.cfg) attached to this repo, so you can bypass your current Windows key and choose the Windows edition you want.
-	- In my opinion, Education > Enterprise > Pro > Home. You can fin a comparison of all versions [here](https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart). Education edition is my favorite as it has all the features from Enterprise but it is available in the multi-edition iso that you can freely download, unlike the enterprise iso that is hard to get. Education and Enterprise editions have a few extra features compared to the Pro edition. The main benefit according to me is that you can completely disable diagnostic data, which is not possible with the Pro edition. Avoid the home edition because it doesn't include the Local Group Policy Editor and it has the least features.
+	- In my opinion, Education > Enterprise > Pro > Home. You can find a comparison of all versions [here](https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart). Education edition is my favorite as it has all the features from Enterprise but it is available in the multi-edition iso that you can freely download, unlike the enterprise iso that is hard to get. Education and Enterprise editions have a few extra features compared to the Pro edition. The main benefit according to me is that you can completely disable diagnostic data, which is not possible with the Pro edition. Avoid the home edition because it doesn't include the Local Group Policy Editor and it has the least features.
  	- Windows 11 IoT Enterprise LTSC 2024 (or Windows 10 IoT Enterprise LTSC 2021) are also good options if you prefer low maintenance and more legacy Windows programs (it can be relevant if you install it for a relative or for a secondary computer that you don't often use). I however advise in general to install the regular edition of Windows (General Availability Channel), specifically Windows 11 Education, as you're less likely to face incompatibilities (both regarding programs and drivers).
 - Reboot and install Windows.
 	- Make sure to delete all your partitions (except the data one, if you have one) and to choose the Education/Enterprise/Professional edition.
@@ -112,7 +112,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
  - Alternatively, you can also use the [LGPO utility](https://www.microsoft.com/en-us/download/details.aspx?id=55319) to backup and restore local group policies.
  - To keep track of new group policies, check this [spreadsheet (25H2)](https://www.microsoft.com/en-us/download/details.aspx?id=108395) and sort the first column.
 
-##### How to get/import the custom group policy configuration for Microsft Office:
+##### How to get/import the custom group policy configuration for Microsoft Office:
 - [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
 - How to import the policies:
 		- Download [templates](https://www.microsoft.com/en-us/download/details.aspx?id=49030)  
