@@ -144,7 +144,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 		- Programs I add to path: `StreamRip`, `yt-dlp`, `ADB/Fastboot`, `FFmpeg`.
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
-- services.msc: `Connected User Experiences and Telemetry` ccan be disabled.
+- services.msc: `Connected User Experiences and Telemetry` can be disabled.
 - Change default app for different file types
   - Video player: mp4, mov, avi, mkv, webm, flv, html5
   - Music player: mp3, aac, flac, ogg, opus
