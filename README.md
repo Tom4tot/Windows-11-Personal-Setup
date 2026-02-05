@@ -2,7 +2,7 @@
 ## Installation process | Essential programs | Privacy tweaks with GPEDIT | PowerShell commands to remove Provisioned apps | General tweaks
 
 ### 1-Introduction and general information
-Applicable to **Windows 11 25H2** (originally made for W11 22H2)
+Applicable to **Windows 11 25H2** (originally made for W11 22H2)  
 Last update: **2026-05-02**  
 Recent changes: Group policies updated, I have modified added policies in W11 24H2 / 25H2; minor QoL updates; repository clean-up
 
