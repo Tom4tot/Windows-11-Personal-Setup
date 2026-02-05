@@ -2,8 +2,8 @@
 ## Installation process | Essential programs | Privacy tweaks with GPEDIT | PowerShell commands to remove Provisioned apps | General tweaks
 
 ### 1-Introduction and general information
-Made for: **Windows 11 25H2**  
-Last update: **2026-01-20**  
+Applicable to **Windows 11 25H2** (originally made for W11 22H2)
+Last update: **2026-05-02**  
 Recent changes: Group policies updated, I have modified added policies in W11 24H2 / 25H2; minor QoL updates; repository clean-up
 
 This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
