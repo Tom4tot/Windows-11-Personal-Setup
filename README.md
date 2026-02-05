@@ -3,7 +3,7 @@
 
 ### 1-Introduction and general information
 Applicable to **Windows 11 25H2** (originally made for W11 22H2)  
-Last update: **2026-05-02**  
+Last update: **2026-02-05**  
 Recent changes: Group policies updated, I have modified added policies in W11 24H2 / 25H2; minor QoL updates; repository clean-up
 
 This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
