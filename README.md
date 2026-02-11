@@ -33,21 +33,21 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [Calibre](https://calibre-ebook.com/) - Management of my Kindle library
 - [chrlauncher](https://github.com/henrypp/chrlauncher/) - Portable Chromium and updater - [macchrome](https://github.com/macchrome/winchrome) and [RobRich999](https://github.com/RobRich999/Chromium_Clang) are both up to date and reliable.
 - [Easy Audio Sync](https://github.com/complexlogic/EasyAudioSync) - Synchronization of my main music library with the one for my phone. It automatically mirrors my main folder and transcodes on-the-fly my .flac files to .opus ones. Works great and it's very fast.
-- [*Everything*](https://www.voidtools.com/) - Locate files and folders by name instantly
+- [*Everything*](https://www.voidtools.com/) - Search files and folders instantly
 - [*Foobar2000*](https://www.foobar2000.org/download) - My favorite music player by far
-- [HandBrake](https://handbrake.fr/) - Favorite video converter
+- [HandBrake](https://handbrake.fr/) - Video converter
 - [JPEGView](https://github.com/sylikc/jpegview) - extremely fast and lightweight image viewer (fork)
 - [KeePassXC](https://keepassxc.org/download/#windows) - Cross-Platform Password Manager
-- [LameXP](https://lamexp.sourceforge.net/page_3.php) - Multi-format audio file converter
 - [LanXchange](https://github.com/tfg13/LanXchange) - Configuration-free, cross-platform file transfers for your local network 
 - [*MP3TAG*](https://www.mp3tag.de/en/download.html) - One of my favorite tag editor for music
 - [MPC-HC](https://github.com/clsid2/mpc-hc) - One of my favorite video player (fork)
 - [MPV](https://sourceforge.net/projects/mpv-player-windows/files/64bit-v3/) - My favorite video player
-- [Nicotine+](https://github.com/nicotine-plus/nicotine-plus/) - open source client four Soulseek.
+- [Nicotine+](https://github.com/nicotine-plus/nicotine-plus/) - open source client for Soulseek.
 - [Notepad++](https://notepad-plus-plus.org/downloads/) - My favorite text editor
 - [OBS](https://obsproject.com) - Best screen recording / broadcasting software
 - [*paint.NET*](https://github.com/paintdotnet/release/) - great easy-to-use image editor
 - [PDFsam](https://pdfsam.org/en/download-pdfsam-basic/) - nice tool for basic PDF manipulations
+- [*PDF24*](https://tools.pdf24.org/en/creator) - PDF toolbox with more features, but not FOSS
 - [qBittorrent](https://www.qbittorrent.org/download.php) - Favorite torrent client
 - [ShareX](https://getsharex.com/downloads/) - Favorite screen capture tools, many other features
 - [simplewall](https://github.com/henrypp/simplewall/) - great firewall
@@ -55,6 +55,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer) - My favorite PDF viewer
 - [Syncthing](https://syncthing.net/) - Wireless sync of my images, music, etc. in between my computer & Android Phone
 - [*TagScanner*](https://www.xdlab.ru/en/) - Another one of my favorite tag editor for music
+- [Waterfox](https://github.com/portapps/waterfox-portable) - Portable edition of Waterfox, fork of Firefox without Mozilla's bloat, e.g. LLMs features.
 - [WinCDEmu](https://github.com/sysprogs/WinCDEmu) - CD/DVD/BD emulator
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Easily download video/audio files from YouTube (fork)
 #### Portable tools
