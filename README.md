@@ -87,7 +87,6 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
 - [RustDesk](https://github.com/rustdesk/rustdesk/releases/) - best open source TeamViewer alternative (which has become awful lately by the way)
 ##### Not available on Winget
-- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows (available on Winget)
 - [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
 - [*Microsoft Office*](https://massgrave.dev/office_c2r_links) - Office suite (direct link from Microsoft servers)
 
