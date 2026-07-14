@@ -68,11 +68,11 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - Package managers (Winget)  
     	- see packages [here](https://winstall.app/)  
     	- Command to search packages: `winget search XXX` (save the package ID to install programs, it's more accurate and reliable)  
-     	- Command to install all programs: winget upgrade --all --silent `winget install 7zip.7zip && winget install File-New-Project.EarTrumpet && winget install Mozilla.Firefox && winget install flux.flux && winget install Oracle.JavaRuntimeEnvironment && winget install Nextcloud.NextcloudDesktop&& winget install geeksoftwareGmbH.PDF24Creator && winget install Microsoft.PowerToys && winget install RustDesk.RustDesk && winget install xanderfrangos.twinkletray`  
+     	- Command to install all programs: winget upgrade --all --silent `winget install 7zip.7zip && winget install File-New-Project.EarTrumpet && winget install flux.flux && winget install Oracle.JavaRuntimeEnvironment && winget install Nextcloud.NextcloudDesktop&& winget install geeksoftwareGmbH.PDF24Creator && winget install Microsoft.PowerToys && winget install RustDesk.RustDesk`  
       - Command to update all programs: (you can also download the shortcut I created, [Winget Update.ink](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Resources/Winget%20Update.lnk)  
 - [7-zip](https://www.7-zip.org/download.html) - Favorite file archiver
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) - Volume Control for Windows (Windows Store) 
-- [Firefox](https://www.mozilla.org/fr/firefox/all/#product-desktop-release) - Main browser
+- [Waterfox]((https://www.waterfox.com/download/)) - Main browser
   - Add-ons: 
     - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
     - [Bypass Paywalls Clean](https://gitflic.ru/project/magnolia1234/bypass-paywalls-firefox-clean)
@@ -86,7 +86,6 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 - [PDFsam Basic](https://pdfsam.org/download-pdfsam-basic/) - PDF tools
 - [PowerToys](https://github.com/microsoft/PowerToys) - Useful system utilities
 - [RustDesk](https://github.com/rustdesk/rustdesk/releases/) - best open source TeamViewer alternative (which has become awful lately by the way)
-- [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) - Easily manage the brightness of your monitors in Windows from the system tray 
 ##### Not available on Winget
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - Enhance the working environment on Windows (available on Winget)
 - [FreeFileSync](https://freefilesync.org) - My favorite file synchronization tool
