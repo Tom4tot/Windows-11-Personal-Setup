@@ -48,6 +48,12 @@ Calculator; Camera; Feedback Hub; Microsoft 365 Copilot; Microsoft Clipchamp; Mi
     - MicrosoftWindows.Client.WebExperience
     - MicrosoftWindows.CrossDevice
     - MSTeams
+ 
+- New apps to delete:
+  - Microsoft.Office.ActionsServer
+  - Microsoft.OfficePushNotificationUtility
+  - Microsoft.OneDriveSync
+  - Microsoft.Windows.DevHome
 
 **PowerShell Commmand to delete them all:**  
 Get-AppxPackage -AllUsers Clipchamp.Clipchamp | Remove-AppxPackage -AllUsers  
@@ -83,6 +89,10 @@ Get-AppxPackage -AllUsers MicrosoftCorporationII.QuickAssist  | Remove-AppxPacka
 Get-AppxPackage -AllUsers MicrosoftWindows.Client.WebExperience | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MicrosoftWindows.CrossDevice | Remove-AppxPackage -AllUsers  
 Get-AppxPackage -AllUsers MSTeams | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.Office.ActionsServer | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.OfficePushNotificationUtility | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.OneDriveSync | Remove-AppxPackage -AllUsers  
+Get-AppxPackage -AllUsers Microsoft.Windows.DevHome | Remove-AppxPackage -AllUsers  
 
 ## System apps (that are safe to uninstall)
  - [System apps](https://learn.microsoft.com/en-us/windows/application-management/system-apps-windows-client-os)
