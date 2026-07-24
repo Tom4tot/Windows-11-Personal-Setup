@@ -25,7 +25,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- Make sure to delete all your partitions (except the data one, if you have one) and to choose the Education/Enterprise/Professional edition.
  	- You can also pick `English (World)` as `the time and currency format` so [most user apps won't be installed](https://www.reddit.com/r/Windows11/comments/15gk07n/english_world_as_time_and_currency_for_debloating/). You can always run `wsreset -i` via CMD (with admin rights) to reset/reinstall Microsoft Store.
   	- Also, don't forget to copy your Wi-Fi drivers on your USB stick (after setting up with Rufus) so you can easily access your network once the Windows installation is complete.
-
+- Extra steps: reset Microsoft Store; install lastest PowerShell; activate windows; install browser of choice & import profile & import extensions' settings; install Windows updates; install all drivers from manufacturers/OEM/Windows Catalog; restore classic context menu, e.g. with WinSetView; setup printers;
 ### 3-Applications that I use / install (FOSS / *proprietary*) (alphabetical order)
 #### Portable applications
 - [ADB/Fastboot - Platform tools](https://developer.android.com/studio/releases/platform-tools) - mandatory to tinker with my Android phones
@@ -143,7 +143,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 		- Programs I add to path: `StreamRip`, `yt-dlp`, `ADB/Fastboot`, `FFmpeg`.
 - Local Security Policy 
   - Ask for password for administrator rights: Local Policies → Security Options → User Account Control: Behavior of the elevation prompt for administrators in Admin Approval mode → Prompt for credentials. 
-- services.msc: `Connected User Experiences and Telemetry` can be disabled.
+- services.msc: `Connected User Experiences and Telemetry` can be disabled; also **disable `WSAIFabricSvc` to turn off AI results from Windows Explorer**.
 - Change default app for different file types
   - Video player: mp4, mov, avi, mkv, webm, flv, html5
   - Music player: mp3, aac, flac, ogg, opus
