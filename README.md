@@ -111,22 +111,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
  - Alternatively, you can also use the [LGPO utility](https://www.microsoft.com/en-us/download/details.aspx?id=55319) to backup and restore local group policies.
  - To keep track of new group policies, check this [spreadsheet (25H2)](https://www.microsoft.com/en-us/download/details.aspx?id=108395) and sort the first column.
 
-##### How to get/import the custom group policy configuration for Microsoft Office:
-- [Official documentation](https://learn.microsoft.com/en-us/deployoffice/oct/oct-2016-help-overview)
-- How to import the policies:
-		- Download [templates](https://www.microsoft.com/en-us/download/details.aspx?id=49030)  
-		- Execute the .exe and import the policies you want, e.g.  
-		- Import `word16.admx` to `C:\Windows\PolicyDefinitions`  
-		- Import `word16.adml` to `C:\Windows\PolicyDefinitions\en-US`
-
-##### How to get/import the custom group policy configuration for Microsoft Edge:
-- [Official documentation](https://learn.microsoft.com/en-us/deployedge/configure-microsoft-edge)
-- How to import the policies:
-	- Download [templates](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ): "Download Windows 64-bit Policy"  
-	- Extract the .cab
-	- Extract the .zip
-	- Import `MicrosoftEdgePolicyTemplates\windows\admx\msedge.admx"` to `C:\Windows\PolicyDefinitions`
-	- Import `MicrosoftEdgePolicyTemplates\windows\admx\en-US\msedge.adml` to `C:\Windows\PolicyDefinitions\en-US`
+##### [Office and Edge policies](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Resources/Office%20and%20Edge%20policies.md)  
 
 - (oudated) List of entries written down: [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md) - [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
 
