@@ -111,9 +111,9 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
  - Alternatively, you can also use the [LGPO utility](https://www.microsoft.com/en-us/download/details.aspx?id=55319) to backup and restore local group policies.
  - To keep track of new group policies, check this [spreadsheet (25H2)](https://www.microsoft.com/en-us/download/details.aspx?id=108395) and sort the first column.
 
-##### [Office and Edge policies](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Resources/Office%20and%20Edge%20policies.md)  
+#### [Office and Edge policies](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Resources/Office%20and%20Edge%20policies.md)  
 
-- (oudated) List of entries written down: [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md) - [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
+#### (oudated) List of entries written down: [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md) - [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
 
 
 ### 5-Settings & tweaks - Others
