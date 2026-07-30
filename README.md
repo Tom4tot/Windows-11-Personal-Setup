@@ -101,6 +101,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- Changes are easier to track than on regedit.
 	- No third-party software = more reliable, more secure, more private.
 	- GPE includes meaningful descriptions, wheras regedit doesn't offer any. Third-party softwares' are usually not very accurate or up to date.
+ - Information:
  	- To keep track of new group policies, check this [spreadsheet (25H2)](https://www.microsoft.com/en-us/download/details.aspx?id=108395) and sort the first column.
   	- [Office and Edge policies](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Resources/Office%20and%20Edge%20policies.md)
   	- To update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
