@@ -3,7 +3,7 @@
 
 ### 1-Introduction and general information
 Applicable to **Windows 11 25H2** (originally made for W11 22H2)  
-Last update: **2026-07-14**  
+Last update: **2026-07-30**  
 Recent changes: Group policies updated, I have modified added policies in W11 24H2 / 25H2; minor QoL updates; repository clean-up
 
 This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
@@ -92,7 +92,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 
 ### 4-Settings & tweaks - Group Policy Editor
 
-#### List of Group Policy changes (screenshots): [Computer Configuration](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/1-Computer%20configuration.png) - [User Configuration](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/2-User%20settings.png)
+#### List of Group Policy changes (screenshots): [Computer Configuration](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/1-Computer%20configuration.png) - [User Configuration](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/2-User%20settings.png) (updated 2026-07-30)
 #### Context
 - Sources: [1](https://4sysops.com/archives/windows-10-privacy-all-group-policy-settings/), [2](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryEnhancedLockdown.htm), [3](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryBasicLockdown.htm)  
 - Benefits of using GPE instead of third-party programs or regedit
@@ -102,7 +102,13 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- No third-party software = more reliable, more secure, more private.
 	- GPE includes meaningful descriptions, wheras regedit doesn't offer any. Third-party softwares' are usually not very accurate or up to date.
 
-#### How to Backup / Restore group policies
+#### How to Backup / Restore group policies with [LGPO utility](https://www.microsoft.com/en-us/download/details.aspx?id=55319) to backup and restore local group policies.
+- Example of commands:
+	- Backup: `lgpo /b "C:\Users\Tom\Nextcloud\3-Backups & infos\1-Windows\4-Programs backups\1-GroupPolicy\LGPO" /n Backup`
+	- Restore:: `lgpo /g "C:\Users\Tom\Nextcloud\3-Backups & infos\1-Windows\4-Programs backups\1-GroupPolicy\LGPO\2026-07-14 Yoga backup"`
+ 	- Script via shortcut: target: `C:\Windows\System32\cmd.exe /k ""C:\Users\Tom\Nextcloud\3-Backups & infos\1-Windows\4-Programs backups\1-GroupPolicy\LGPO\LGPO.exe" /b "C:\Users\Tom\Nextcloud\3-Backups & infos\1-Windows\4-Programs backups\1-GroupPolicy\LGPO"`; start in: `C:\Windows\System32`
+
+#### How to Backup / Restore group policies manually
 - Backup: copy all files/folders from `C:\Windows\System32\GroupPolicy`
 - Restore/import: 
 	- Paste these files to your new installation in the same folder
