@@ -93,7 +93,8 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 ### 4-Settings & tweaks - Group Policy Editor
 
 #### List of Group Policy changes (screenshots): [Computer Configuration](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/1-Computer%20configuration.png) - [User Configuration](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/2-User%20settings.png) (updated 2026-07-30)
-#### Context
+#### List of Group Policy changes (table): [table](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/3-table.md)
+##### Context
 - Sources: [1](https://4sysops.com/archives/windows-10-privacy-all-group-policy-settings/), [2](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryEnhancedLockdown.htm), [3](https://www.autoitconsulting.com/files/autoit-win10-telemetry-gpo/W-Win10-TelemetryBasicLockdown.htm)  
 - Benefits of using GPE instead of third-party programs or regedit
 	- Easier to setup after a clean install (no need to tick all boxes one by one).
@@ -107,13 +108,13 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
   	- To update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
 	- (oudated) List of entries written down: [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md) - [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
 
-#### How to Backup / Restore group policies with [LGPO utility](https://www.microsoft.com/en-us/download/details.aspx?id=55319) to backup and restore local group policies.
+##### How to Backup / Restore group policies with [LGPO utility](https://www.microsoft.com/en-us/download/details.aspx?id=55319) to backup and restore local group policies.
 - Example of commands:
 	- Backup: `lgpo /b "C:\Users\Tom\Nextcloud\3-Backups & infos\1-Windows\4-Programs backups\1-GroupPolicy\LGPO" /n Backup`
 	- Restore:: `lgpo /g "C:\Users\Tom\Nextcloud\3-Backups & infos\1-Windows\4-Programs backups\1-GroupPolicy\LGPO\2026-07-14 Yoga backup"`
  	- Script via shortcut: target: `C:\Windows\System32\cmd.exe /k ""C:\Users\Tom\Nextcloud\3-Backups & infos\1-Windows\4-Programs backups\1-GroupPolicy\LGPO\LGPO.exe" /b "C:\Users\Tom\Nextcloud\3-Backups & infos\1-Windows\4-Programs backups\1-GroupPolicy\LGPO"`; start in: `C:\Windows\System32`
 
-#### How to Backup / Restore group policies manually
+##### How to Backup / Restore group policies manually
 - Backup: copy all files/folders from `C:\Windows\System32\GroupPolicy`
 - Restore/import: 
 	- Paste these files to your new installation in the same folder
