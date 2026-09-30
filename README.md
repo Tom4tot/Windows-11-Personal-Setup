@@ -2,8 +2,8 @@
 ## Installation process | Essential programs | Privacy tweaks with GPEDIT | PowerShell commands to remove Provisioned apps | General tweaks
 
 ### 1-Introduction and general information
-Applicable to **Windows 11 25H2** (originally made for W11 22H2)  
-Last update: **2026-07-30**  
+Applicable to **Windows 11 26H2** (originally made for W11 22H2)  
+Last update: **2026-09-30**  
 Recent changes: Group policies updated, I have modified added policies in W11 24H2 / 25H2; minor QoL updates; repository clean-up
 
 This covers all the steps I personally go though when performing a clean install of Windows 11. My aims are the following:
@@ -103,7 +103,7 @@ Thanks to [Duttyend](https://github.com/duttyend) for the tips and suggestions!
 	- No third-party software = more reliable, more secure, more private.
 	- GPE includes meaningful descriptions, wheras regedit doesn't offer any. Third-party softwares' are usually not very accurate or up to date.
  - Information:
- 	- To keep track of new group policies, check this [spreadsheet (25H2)](https://www.microsoft.com/en-us/download/details.aspx?id=108395) and sort the first column.
+ 	- To keep track of new group policies, check this [spreadsheet (26H2)]([https://www.microsoft.com/en-us/download/details.aspx?id=108395](https://www.microsoft.com/en-us/download/details.aspx?id=108849)) and sort the first column.
   	- [Office and Edge policies](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Resources/Office%20and%20Edge%20policies.md)
   	- To update policies without restarting, run this command in CMD (it's **not** necessary to run it as administrator): `gpupdate /force`
 	- (oudated) List of entries written down: [Privacy settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/Privacy%20settings.md) - [UI/UX settings](https://github.com/Tom4tot/Windows-11-Personal-Setup/blob/main/Group%20Policy%20settings/UI%20UX%20settings.md)
